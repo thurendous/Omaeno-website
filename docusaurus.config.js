@@ -6,25 +6,26 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'My Site',
-    tagline: 'Dinosaurs are cool',
-    url: 'https://your-docusaurus-test-site.com',
-    baseUrl: '/',
+    title: 'OmaenoWebsite',
+    tagline: 'Omaeno solidity is cool',
+    url: 'https://thurendous.github.io/Omaeno-website',
+    baseUrl: '/Omaeno-website/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'facebook', // Usually your GitHub org/user name.
-    projectName: 'docusaurus', // Usually your repo name.
+    organizationName: 'thurendous', // Usually your GitHub org/user name.
+    projectName: 'Omaeno-website', // Usually your repo name.
+    trailingSlash: false,
 
     // Even if you don't use internalization, you can use this field to set useful
     // metadata like html lang. For example, if your site is Chinese, you may want
     // to replace "en" with "zh-Hans".
     i18n: {
-        defaultLocale: 'jp',
-        locales: ['jp', 'en', 'zh-Hans'],
+        defaultLocale: 'ja',
+        locales: ['ja', 'en' /*'zh-Hans'*/],
     },
 
     presets: [
@@ -56,6 +57,13 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            metadata: [
+                {
+                    name: 'Omaeno Web3',
+                    content: 'programming, Solidity, Web3, NFT',
+                },
+            ],
+            // This would become <meta name="keywords" content="cooking, blog"> in the generated HTML
             announcementBar: {
                 id: 'support_us',
                 content:

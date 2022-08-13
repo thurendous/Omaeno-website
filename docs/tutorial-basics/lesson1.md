@@ -1,8 +1,17 @@
 ---
 title: Hello World
-author: Mark
+author: MarkWu
 date: August 11, 2022
+keywords: [solidity, hello, world]
+description: solidity hello world
 ---
+
+<!-- ---
+title: Title for search engines; can be different from the actual heading
+description: A short description of this page
+image: a thumbnail image to be shown in social media cards
+keywords: [keywords, describing, the main topics]
+--- -->
 
 # Hello World
 

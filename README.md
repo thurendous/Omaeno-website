@@ -1,7 +1,6 @@
 # About Omaeno
 
-We are some random enthusiastic newbie
-about the web3 world and we want to do some stuffs for our community. We would like to help the people who are like us who were helpless in the society and had no clue how to start learning about a new technology.
+We are some random newbies who are enthusiastic about the web3's vision since lont time ago and we want to do some stuffs for our community. We would like to help the people who are like us who were helpless in the society and had no clue how to start learning about a new technology.
 
 We want to make learning stuffs easy in Web3.
 
@@ -15,6 +14,10 @@ We want to send this message to all the people who live in Japan and all over th
 > We care about you and we want to make you feel good! We are together, friend!
 
 If you feel the same way and agree with us. Please feel free to follow us and give us a star.
+
+# deployment
+
+Read [this](https://docusaurus.io/docs/deployment).
 
 # Website
 
