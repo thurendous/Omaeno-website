@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const config = {
     title: 'OmaenoWebsite',
     tagline: 'Omaeno solidity is cool',
-    url: 'https://thurendous.github.io/Omaeno-website',
-    baseUrl: '/Omaeno-website/',
+    url: 'https://omaeno.xyz',
+    baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
