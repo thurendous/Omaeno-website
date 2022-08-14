@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[7024],{8263:e=>{e.exports=JSON.parse('{"permalink":"/Omaeno-website/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

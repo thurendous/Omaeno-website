@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[3923],{6114:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/Omaeno-website/en/blog/tags/facebook","allTagsPath":"/Omaeno-website/en/blog/tags","count":1}')}}]);
