@@ -1,0 +1,14 @@
+{
+    "position": 0,
+    "label": "Solidity",
+    "collapsible": true,
+    "collapsed": true,
+    "className": "red",
+    "link": {
+        "type": "generated-index",
+        "title": "Learn Solidity"
+    },
+    "customProps": {
+        "description": "Content list of the examples"
+    }
+}
