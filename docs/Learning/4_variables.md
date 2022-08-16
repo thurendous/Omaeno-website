@@ -1,5 +1,5 @@
 ---
-title: variables
+title: 3 Variables
 author: MarkWu, Polymetis
 date: August 15, 2022
 keywords: [solidity, variable]
@@ -50,10 +50,11 @@ contract Variables {
     -   ブロックチェーンに付帯する既存の情報を呼び出せるもの
         -   例:timestamp は UNIX [タイムスタンプのこと](https://url-c.com/tc/)
 
--   tips
-    -   ブロックチェーンにおいては、data の保存は Storage と Memory の 2 種類があり、
-    -   ローカル変数は Memory、状態変数は Storage に保存される。
-    -   Storage に保存されると永久化されて、Memory は一時的なもの
-    -   Storage の情報を変更することは「ブロックチェーンデータの改変」となる。
+:::tip tip
+
+-   ブロックチェーンにおいては、data の保存は Storage と Memory の 2 種類があり、ローカル変数は Memory、状態変数は Storage に保存される。
+-   Storage に保存されると永久化されて、Memory は一時的なもの - Storage の情報を変更することは「ブロックチェーンデータの改変」となる。
+
+:::
 
 [Remix](https://remix.ethereum.org/)で試す

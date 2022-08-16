@@ -1,5 +1,5 @@
 ---
-title: Read and Write Variables
+title: 5 Read and Write Variables
 author: MarkWu, Polymetis
 date: August 15, 2022
 keywords: [solidity, read, write, variable]

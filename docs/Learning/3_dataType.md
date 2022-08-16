@@ -1,5 +1,5 @@
 ---
-title: Data Type
+title: 2 Data Type
 author: MarkWu, Polymetis
 date: August 15, 2022
 keywords: [solidity, data, type]

@@ -1,5 +1,5 @@
 ---
-title: An Easy App
+title: 1 An Easy App
 author: MarkWu, Polymetis
 date: August 11, 2022
 keywords: [solidity, app]
@@ -9,6 +9,8 @@ tags:
     - basic
     - first-step
 ---
+
+# An Easy App
 
 ```solidity
 // SPDX-License-Identifier: MIT

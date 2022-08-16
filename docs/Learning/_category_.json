@@ -1,7 +1,7 @@
 {
     "position": 0,
     "label": "Solidity",
-    "collapsible": true,
+    "collapsible": false,
     "collapsed": true,
     "className": "red",
     "link": {

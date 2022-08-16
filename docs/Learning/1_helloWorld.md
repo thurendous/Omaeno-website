@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: 0 Hello World
 author: MarkWu, Polymetis
 date: August 11, 2022
 keywords: [solidity, hello, world]
@@ -10,10 +10,12 @@ tags:
     - first-step
 ---
 
-```solidity
+# Hello World
+
+```sol
 // SPDX-License-Identifier: MIT // ->　著作権を宣言
 
-// solidity のバージョンを宣言、^の意味は 0.8.13 より上 0.
+// solidity のバージョンを宣言、^の意味は 0.8.13 あるいはそれより上
 pragma solidity ^0.8.13;
 
 

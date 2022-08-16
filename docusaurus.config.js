@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'OmaenoWebsite',
-    tagline: 'Omaeno solidity is cool',
+    title: 'おまえの',
+    tagline: 'Learning Web3 Made Easy',
     url: 'https://omaeno.xyz',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -38,7 +38,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/thurendous/Omaeno-website/tree/master/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -57,17 +57,23 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            prism: {
+                theme: require('prism-react-renderer/themes/github'),
+                additionalLanguages: ['solidity'],
+                darkTheme: require('prism-react-renderer/themes/dracula'),
+                respectPrefersColorScheme: true,
+            },
             metadata: [
                 {
                     name: 'Omaeno Web3',
-                    content: 'programming, Solidity, Web3, NFT',
+                    content: 'programming, Solidity, Web3, NFT, blockchain',
                 },
             ],
             // This would become <meta name="keywords" content="cooking, blog"> in the generated HTML
             announcementBar: {
                 id: 'support_us',
                 content:
-                    'The website is still a work in progress. Please feel free to give our github a star or follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Markwu_crypto">twitter</a>!',
+                    'The website is still a work in progress. Please feel free to give our <a target="_blank" rel="noopener noreferrer" href="https://github.com/thurendous/Omaeno-website">github</a> a star or follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/Markwu_crypto">twitter</a>!',
                 backgroundColor: '#fafbfc',
                 textColor: '#091E42',
                 isCloseable: true,
@@ -134,11 +140,11 @@ const config = {
                 ],
                 copyright: `Copyright © ${new Date().getFullYear()} Omae is built with Docusaurus.`,
             },
-            prism: {
-                theme: lightCodeTheme,
-                darkTheme: darkCodeTheme,
-                respectPrefersColorScheme: true,
-            },
+            // prism: {
+            //     theme: lightCodeTheme,
+            //     darkTheme: darkCodeTheme,
+            //     respectPrefersColorScheme: true,
+            // },
         }),
 }
 

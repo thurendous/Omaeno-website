@@ -1,5 +1,5 @@
 ---
-title: unit of Ethereum(ether and wei)
+title: 6 Unit of Ethereum(ether and wei)
 author: MarkWu, Polymetis
 date: August 15, 2022
 keywords: [solidity, ether, gawei, wei]

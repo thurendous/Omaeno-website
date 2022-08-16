@@ -1,5 +1,5 @@
 ---
-title: Data Type
+title: 4 Data Type
 author: MarkWu, Polymetis
 date: August 15, 2022
 keywords: [solidity, constants, immutable]
@@ -11,7 +11,7 @@ tags:
     - immutable
 ---
 
-# Constants
+# Constant and Immutable
 
 ```solidity
 // SPDX-License-Identifier: MIT
