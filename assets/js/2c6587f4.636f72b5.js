@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[8132],{385:s=>{s.exports=JSON.parse('{"label":"if","permalink":"/docs/tags/if","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Learning/ifElse","title":"9 If and Else","description":"solidity conditional statements","permalink":"/docs/Learning/ifElse"}]}')}}]);
