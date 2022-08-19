@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'おまえの',
-    tagline: 'Learning Web3 Made Easy',
+    title: 'Omae No',
+    tagline: 'Simple',
     url: 'https://omaeno.xyz',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -116,7 +116,7 @@ const config = {
                         items: [
                             {
                                 label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
+                                href: 'https://discord.gg/DJ9FrhWPDb',
                             },
                             {
                                 label: 'Twitter',
@@ -127,18 +127,18 @@ const config = {
                     {
                         title: 'More',
                         items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
+                            // {
+                            //     label: 'Blog',
+                            //     to: '/blog',
+                            // },
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
+                                href: 'https://github.com/thurendous/Omaeno-website',
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} Omae is built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Omae is built with love in Tokyo.`,
             },
             // prism: {
             //     theme: lightCodeTheme,

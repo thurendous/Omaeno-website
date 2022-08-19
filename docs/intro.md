@@ -1,17 +1,18 @@
 ---
-sidebar_position: 10
+sidebar_position: 100
 ---
 
 # How to
 
 -   コード、記述文などを読んで理解
 -   remix で実際に試してみる
+-   辞書みたいな感じで使うのもおすすめ
 -   [community](https://discord.gg/gE2S99Qb) で質問する
 
 # Solidity、Web3 っておいしいの
 
 -   トレンドにのってるってなんとなくかっこいい
--   持てるようなる、待てる
+-   持てるようなる
 -   デジタルノマドがすき
 -   Web3 は国家戦略
 -   個人がものすごくパワーアップされる時代がくる

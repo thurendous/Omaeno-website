@@ -1,5 +1,5 @@
 ---
-title: 4 Data Type
+title: 5 Data Type
 author: MarkWu, Polymetis
 date: August 15, 2022
 keywords: [solidity, constants, immutable]
@@ -30,9 +30,6 @@ contract Constants {
     -   イメージはコントラクトそのものに書き込んでいるので、一回初期化したら書き換えできない。
     -   [constants でない変数は、ブロックチェーン上に Storage などに書き込まれ、編集も可能である](https://developer.mozilla.org/en)
 
--   tips
-    -   constants は宣言するタイミングで初期値を与えないといけない
-
 :::tip tip
 
 constants は宣言するタイミングで初期値を与えないといけない
@@ -60,8 +57,11 @@ contract Immutable {
 
 -   constants と同様で書き換えができない変数だが、constructor によって初期化が可能になったもの
 
--   tips
-    -   constructor は contract が作成されるときに一度だけ呼ばれる関数
-    -   python や javascript の場合に constructor が class にあるのはご存知だろう。Solidity では contract は class みたいに理解してもよいかもしれない
+:::tip tip
 
-[Remix](https://remix.ethereum.org/)で試す
+-   constructor は contract が作成されるときに一度だけ呼ばれる関数
+-   python や javascript の場合に constructor が class にあるのはご存知だろう。Solidity では contract は class みたいに理解してもよいかもしれない
+
+:::
+
+    [Remix](https://remix.ethereum.org/)で試す

@@ -1,5 +1,5 @@
 ---
-title: 7 Gas
+title: 8 Gas
 author: MarkWu, Polymetis
 date: August 15, 2022
 keywords: [solidity, gas price, gas]
@@ -20,7 +20,7 @@ description: gas and gas price of Ethereum
 -   使いきれなかったガスは変換される
 -   使ったガスは帰ってこない
 -   Gas Limit
-    -   二種類がある
+    -   2 種類がある
         -   あなた自身が設定した gas limit
         -   ブロックの gas limit -> network により設定される
 
@@ -29,6 +29,8 @@ description: gas and gas price of Ethereum
 pragma solidity ^0.8.13;
 
 contract Gas {
+    // ガス代を使うために、適当にと状態変数を作った
+    // 状態変数はStorageに保存され、変更するたびにガス代が消費される
     uint public i = 0;
 
     // ガス代を使いきるとトランザクションが失敗する
@@ -37,7 +39,8 @@ contract Gas {
     function neverEndingLoop() public {
         // わざと無限ループを作成してすべてのガスを使い切る
         // トランザクションは失敗する
-        // -> iの値は変わらず使ったガス代が無駄になる
+        // -> 結果としてiの値は変わらず使ったガス代が無駄になる
+        // -> 全てrevertされる
         while (true) {
             i += 1;
         }

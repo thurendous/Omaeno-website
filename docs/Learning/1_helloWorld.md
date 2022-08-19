@@ -1,5 +1,5 @@
 ---
-title: 0 Hello World
+title: 1 Hello World
 author: MarkWu, Polymetis
 date: August 11, 2022
 keywords: [solidity, hello, world]
@@ -26,8 +26,7 @@ contract HelloWorld {
 }
 ```
 
--   その他
-    -   ファイル名もできるだけコントラクト名と同一としたほうがよい
-        -   例：今回の場合は`HelloWorld.sol`
+-   ファイル名もできるだけコントラクト名と同一としたほうがよい
+    -   例：今回の場合は`HelloWorld.sol`
 
 [Remix](https://remix.ethereum.org/)で試す

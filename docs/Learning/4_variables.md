@@ -1,5 +1,5 @@
 ---
-title: 3 Variables
+title: 4 Variables
 author: MarkWu, Polymetis
 date: August 15, 2022
 keywords: [solidity, variable]

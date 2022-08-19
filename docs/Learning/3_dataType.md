@@ -1,5 +1,5 @@
 ---
-title: 2 Data Type
+title: 3 Data Type
 author: MarkWu, Polymetis
 date: August 15, 2022
 keywords: [solidity, data, type]
@@ -64,14 +64,6 @@ contract Primitives {
     solidityには2種類のバイトの変数型がある。
     - 固定長のバイトの配列: bytes1など
     - 可変長のバイトの配列: bytes or byte[]
-    In Solidity, the data type byte represent a sequence of bytes.
-    Solidity presents two type of bytes types :
-
-     - fixed-sized byte arrays
-     - dynamically-sized byte arrays.
-
-     The term bytes in Solidity represents a dynamic array of bytes.
-     It’s a shorthand for byte[] .
     */
     bytes1 a = 0xb5; //  [10110101]
     bytes1 b = 0x56; //  [01010110]
