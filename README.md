@@ -15,6 +15,16 @@ We want to send this message to all the people who live in Japan and all over th
 
 If you feel the same way and agree with us. Please feel free to follow us and give us a star.
 
+# Omaeno Contributors
+<div align="center">
+  <h4 align="center">
+    Contributors are the key
+  </h4>
+  <a href="https://github.com/thurendous/Omaeno-website/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=thurendous/Omaeno-website" />
+  </a>
+</div>
+
 # deployment
 
 Read [this](https://docusaurus.io/docs/deployment).
