@@ -5,6 +5,8 @@ date: August 15, 2022
 keywords: [solidity, ether, gawei, wei]
 description: unit of Ethereum(ether and wei)
 # slug: /ether-and-wei
+tag:
+    - basic
 ---
 
 # Ether and Wei

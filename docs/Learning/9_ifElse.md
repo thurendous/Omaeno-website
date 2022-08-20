@@ -6,6 +6,7 @@ keywords: [solidity, if]
 description: solidity conditional statements
 # slug: /hello-world
 tags:
+    - basic
     - if
     - else
 ---
@@ -41,3 +42,5 @@ contract IfElse {
 ```
 
 関数`tenary(uint x)`は[三項演算子](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)を使っている
+
+[Remix](https://remix.ethereum.org/)で試す

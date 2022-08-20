@@ -1,13 +1,13 @@
 ---
-title: 5 Data Type
+title: 5 constant and immutable
 author: MarkWu, Polymetis
 date: August 15, 2022
-keywords: [solidity, constants, immutable]
+keywords: [solidity, constant, immutable]
 description: constants and immutable variables of solidity
-# slug: /constants-immutable-variables
+# slug: /constant-immutable-variables
 tags:
     - basic
-    - constants
+    - constant
     - immutable
 ---
 
@@ -17,7 +17,7 @@ tags:
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
-contract Constants {
+contract Constant {
     // constantな変数は大文字で書くのが原則
     address public constant MY_ADDRESS = 0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc;
     uint public constant MY_UINT = 123;
@@ -25,14 +25,14 @@ contract Constants {
 
 ```
 
--   constants とは変更不可な変数のこと。値がハードコーディングされており、ガスコストを削減できる
+-   constant とは変更不可な変数のこと。値がハードコーディングされており、ガスコストを削減できる
 
     -   イメージはコントラクトそのものに書き込んでいるので、一回初期化したら書き換えできない。
-    -   [constants でない変数は、ブロックチェーン上に Storage などに書き込まれ、編集も可能である](https://developer.mozilla.org/en)
+    -   [ でない変数は、ブロックチェーン上に Storage などに書き込まれ、編集も可能である](https://developer.mozilla.org/en)
 
 :::tip tip
 
-constants は宣言するタイミングで初期値を与えないといけない
+constant は宣言するタイミングで初期値を与えないといけない
 
 :::
 <br/>
@@ -55,7 +55,7 @@ contract Immutable {
 }
 ```
 
--   constants と同様で書き換えができない変数だが、constructor によって初期化が可能になったもの
+-   immutable は constant と同様で書き換えができない変数だが、constructor によって初期化が可能になったもの
 
 :::tip tip
 

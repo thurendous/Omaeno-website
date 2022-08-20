@@ -5,6 +5,9 @@ date: August 15, 2022
 keywords: [solidity, gas price, gas]
 description: gas and gas price of Ethereum
 # slug: /ether-and-wei
+tags:
+    - basic
+    - gas
 ---
 
 # ガス代
