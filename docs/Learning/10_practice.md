@@ -1,5 +1,5 @@
 ---
-title: 9 If and Else
+title: 10 Practice
 author: MarkWu, Polymetis
 date: August 19, 2022
 keywords: [solidity, if]
@@ -24,7 +24,7 @@ tags:
 
     -   住所を変更してみる
 
-[Remix](https://remix.ethereum.org/)で試す
+[Remix](https://remix.ethereum.org/)で作る
 
 ## 回答例
 
@@ -39,6 +39,7 @@ contract Thurendous {
     string public myAddress;
     address public owner;
 
+    // デプロイする際にconstructorの引数を入れて実行しよう
     constructor(uint _age) {
         owner = msg.sender;
         AGE = _age;
