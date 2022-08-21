@@ -9,7 +9,7 @@ sidebar_position: 100
 -   辞書みたいな感じで使うのもおすすめ
 -   [community](https://discord.gg/gE2S99Qb) で質問する
 
-::: tip tip
+:::tip tip
 
 remix で試すときにきちんと solidity compiler が一致するようにしてください
 
