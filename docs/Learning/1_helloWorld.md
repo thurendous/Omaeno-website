@@ -30,3 +30,9 @@ contract HelloWorld {
     -   例：今回の場合は`HelloWorld.sol`
 
 [Remix](https://remix.ethereum.org/)で試す
+
+:::tip tip
+
+remix で試すときにきちんと solidity compiler が一致するようにしてください
+
+:::

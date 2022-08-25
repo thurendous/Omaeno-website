@@ -41,7 +41,17 @@ const config = {
                         'https://github.com/thurendous/Omaeno-website/tree/master/',
                 },
                 blog: {
-                    showReadingTime: true,
+                    showReadingTime: true, // When set to false, the "x min read" won't be shown
+                    readingTime: ({
+                        content,
+                        frontMatter,
+                        defaultReadingTime,
+                    }) =>
+                        defaultReadingTime({
+                            content,
+                            options: { wordsPerMinute: 500 },
+                        }),
+                    blogSidebarCount: 10,
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
@@ -91,7 +101,7 @@ const config = {
                         position: 'left',
                         label: 'Solidity',
                     },
-                    // { to: '/blog', label: 'Blog', position: 'left' },
+                    { to: '/blog', label: 'Blog', position: 'left' },
                     {
                         href: 'https://github.com/thurendous',
                         label: 'GitHub',
