@@ -41,6 +41,7 @@ sidebar_position: 100
 -   仮想通貨は投機ばかりですよね？
 
 -   希少性の話
+-   人間の本性
 
 ## Learn Solidity
 
