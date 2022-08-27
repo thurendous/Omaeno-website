@@ -4,73 +4,19 @@
         <title>Omae No Blog</title>
         <link>https://omaeno.xyz/blog</link>
         <description>Omae No Blog</description>
-        <lastBuildDate>Sat, 13 Aug 2022 14:47:40 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Aug 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <item>
-            <title><![CDATA[Web3]]></title>
-            <link>https://omaeno.xyz/blog/Web3</link>
-            <guid>/Web3</guid>
-            <pubDate>Sat, 13 Aug 2022 14:47:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sssMDX Blog Post]]></title>
-            <link>https://omaeno.xyz/blog/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
-            <pubDate>Mon, 01 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content:encoded>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://omaeno.xyz/blog/welcome</link>
-            <guid>welcome</guid>
-            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_ev3q"></p><p>The blog supports tags as well!</p><p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
-            <category>facebook</category>
-            <category>hello</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://omaeno.xyz/blog/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="クリップボードにコードをコピー" title="コピー" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content:encoded>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Greetings!]]></title>
-            <link>https://omaeno.xyz/blog/greetings</link>
-            <guid>greetings</guid>
-            <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Congratulations, you have made your first post!]]></description>
-            <content:encoded><![CDATA[<p>Congratulations, you have made your first post!</p><p>Feel free to play around and edit this post as much you like.</p>]]></content:encoded>
-            <category>greetings</category>
-        </item>
-        <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://omaeno.xyz/blog/long-blog-post</link>
-            <guid>long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
-            <content:encoded><![CDATA[<p>This is the summary of a very long blog post,</p><p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>hello</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://omaeno.xyz/blog/first-blog-post</link>
-            <guid>first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
-            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content:encoded>
-            <category>hola</category>
-            <category>docusaurus</category>
+            <title><![CDATA[About this blog]]></title>
+            <link>https://omaeno.xyz/blog/why-I-write-about-blockchain</link>
+            <guid>why-I-write-about-blockchain</guid>
+            <pubDate>Thu, 25 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[前言]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="前言">前言<a class="hash-link" href="#前言" title="見出しへの直接リンク">​</a></h2><p>こんにちわ！Mark です。</p><p>そもそも本ウェブサイトを作ろうと思ったのは、自分は 2017 年からブロックチェーンに燃え始めてから、周りの方たちは興味を示すどころか、疑義の念を抱いている方が少なからずいたことがきっかけで、それから悶々となにかをやってやろうじゃないかと色々思いを抱いてきました。</p><p>今現在に至るまで、だいぶ時間が経ちましたし、色々な考えも成熟してきているかと思います。勉強も続けてきており、それが終わりのないマラソンのようですが、絶えず続けていく所存です。本ブログはブロックチェーン素人のあなたにとってのすべての疑問に答え、長年に渡って追ってきたブロックチェーン業界の観察者である自分自身がこの業界の将来に対するビジョンを共有できれば幸いだと考えております。</p><p>本ウェブサイトをきっかけに少しでもブロックチェーンの理解の促進、Web3 の理解、メタバースへの興味を持ち始めてもらえると嬉しいです。</p><p>ひいては熱狂的に興味を持ってもらえるような人が生まれてきて、Web3 業界にて起業したり社会を変革させたり、これまでの固定観念、常識を取り壊し、新たな歩み、富を創造して、人々を自由にして、社会を開放していくとか、そういうことは願ってやみません！</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="大きなトレンドからみるということ">大きなトレンドからみるということ<a class="hash-link" href="#大きなトレンドからみるということ" title="見出しへの直接リンク">​</a></h2><p>自分はもともと海外出身かつ理系出身ですが、文系も大好きでした。それが原因なのかわかりませんが、ブロックチェーンに出会ってからその考え方が理系でもできて文系でもできるところ、また深く考えれば考えるほど、楽しくなっていくことが大好きでした。</p><p>ブロックチェーンを考えるときに、投資の世界ですと、どうしても短期的に物事を価格的、あるいは投機的な視点で見がちですが、自分はどちらかというと、少し原点に立ち戻って大きな視点から見るのが好きです。</p><p>個人として行動を起こす上で、大きな方向として間違えなければ、何か方向性を疑うような事件が起きたとしても個人的には許容範囲なのかなって思ってます。ブロックチェーンに対して疑義の念を抱いてる人が結構いますが、大きなトレンドとして分析すると、色々明らかになることが多いように思います。</p><p>これから、大きなトレンドの話をいくつか記事に分けて書いていこうと考えています。こういった記事を読んでいただければ、ブロックチェーン業界を長年観察してきて、なぜブロックチェーンに熱狂的に自分はなったのか、なぜブロックチェーン業界はすごいのかといった質問に答えることができるのではないかと思います。</p><p>もちろん、ブロックチェーン業界に対して疑義の念をあなたは抱いているかもしれませんが、そこはゆっくり吟味していただいて、私は素人でありながらも、普通の人が考えたことのない、あるいは知ろうとしないことを長い年月と経験を経て多言語的に情報を収集し勉強してきて今に至っています。</p><p>ブロックチェーンについてはものすごい楽観視しているのはそれなりの理由や背景知識を頑張って手に入れたからです。根拠があって今の認識があるわけです。ゆっくりとご覧になって考えてみてほしいです。</p><p>一度に書くと書ききれないことですので、自分としてもゆっくり整理して複数の記事にして全部書いていきたいと考えています。何かお役に立ったのであれば幸いです！</p><h1>それでは、こんなことを書く</h1><p>小難しいことを書くと多分理解されませんので、ある意味自分がブロックチェーンを理解してきた中で、実生活の事例とか、普段の感覚とかそういったものを使いつつ、直感的にわかってもらえればと思っています。</p><ul><li><p>マクロな視点から見た blockchain</p><ul><li>歴史の話から（バーチャルへ）</li><li>お金の話から（バーチャルへ）<ul><li>software is eating the world</li></ul></li><li>技術の進歩についての現状</li><li>世界経済の規模<ul><li>仮想通貨は値上がりするの？</li></ul></li><li>将来の経済発展の割合</li><li>社会の変貌（非中央集権へ）</li></ul></li><li><p>Web3 ってなに</p></li><li><p>DeFi ってなに</p></li><li><p>スマートコントラクトってなに</p></li><li><p>仮想通貨は本質的な価値がないとよく言われるので大丈夫か</p></li><li><p>仮想通貨は投機ばかりですよね？</p></li><li><p>希少性の話</p></li><li><p>人間の本性</p></li><li><p>国境がない世界</p></li><li><p>blockchain の仕組み</p></li></ul>]]></content:encoded>
+            <category>ブロックチェーン</category>
+            <category>歴史</category>
         </item>
     </channel>
 </rss>

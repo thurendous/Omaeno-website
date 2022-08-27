@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[3095],{5774:i=>{i.exports=JSON.parse('{"label":"mapping","permalink":"/docs/tags/mapping","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Learning/Mapping","title":"12 Mapping","description":"solidity mapping","permalink":"/docs/Learning/Mapping"}]}')}}]);
