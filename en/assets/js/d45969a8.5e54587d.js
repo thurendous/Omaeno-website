@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[8297],{9448:t=>{t.exports=JSON.parse('{"label":"struct","permalink":"/en/docs/tags/struct","allTagsPath":"/en/docs/tags","count":1,"items":[{"id":"Learning/Struct","title":"14 Struct","description":"solidity struct","permalink":"/en/docs/Learning/Struct"}]}')}}]);
