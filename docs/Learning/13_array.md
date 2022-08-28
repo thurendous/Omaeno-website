@@ -64,3 +64,52 @@ contract Array {
 }
 
 ```
+
+以下の例は配列の何番目かの要素をリムーブする関数が入っているコントラクト
+
+-   例：[1, 2, 3] -- remove(1) --> [1, 3, 3] --> [1, 3]
+
+```sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.13;
+
+contract ArrayRemoveByShifting {
+    // [1] -- remove(0) --> [1] --> []
+
+    uint[] public arr;
+
+    // 要素をリムーブする関数本体
+    function remove(uint _index) public {
+        require(_index < arr.length, "index out of bound"); // _indexが配列の要素の数より小さいことを制限。大きれば"index out of bound"をエラー表示してrevertする
+
+        for (uint i = _index; i < arr.length - 1; i++) {
+            arr[i] = arr[i + 1];
+        }
+        arr.pop();
+    }
+
+    // リムーブ関数が正確に機能するかをチェックする関数
+    function test() external {
+        arr = [1, 2, 3, 4, 5];
+        remove(2); // 2番要素をリムーブ
+        // [1, 2, 4, 5]
+        assert(arr[0] == 1); // 0番要素は1なのか確認
+        assert(arr[1] == 2);
+        assert(arr[2] == 4);
+        assert(arr[3] == 5);
+        assert(arr.length == 4); // lengthは4なのか確認
+
+        arr = [1];
+        remove(0);
+        // []
+        assert(arr.length == 0);
+    }
+}
+
+```
+
+:::info revert とは
+
+revert するということはイーサリアムにおいてトランザクションを実行し終わってなくて途中で fail してすべてがロールバックされることを意味します。
+
+:::

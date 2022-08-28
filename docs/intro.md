@@ -47,7 +47,7 @@ sidebar_position: 100
 
 -   コード、記述文などを読んで理解
 -   remix で実際に試してみる
--   辞書みたいな感じで使うのもおすすめ
+-   辞書みたいな感じで使う
 -   [community](https://discord.gg/gE2S99Qb) で質問する
 
 ## Reference
