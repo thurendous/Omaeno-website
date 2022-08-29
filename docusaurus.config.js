@@ -27,7 +27,15 @@ const config = {
         defaultLocale: 'ja',
         locales: ['ja', 'en' /*'zh-Hans'*/],
     },
-
+    plugins: [
+        [
+            '@docusaurus/plugin-google-gtag',
+            {
+                trackingID: 'G-CH3DQRV948',
+                anonymizeIP: true,
+            },
+        ],
+    ],
     presets: [
         [
             'classic',
@@ -115,6 +123,10 @@ const config = {
                     {
                         title: 'Learn',
                         items: [
+                            {
+                                label: 'Knowledge',
+                                to: '/blog',
+                            },
                             {
                                 label: 'Solidity',
                                 to: '/docs/intro',

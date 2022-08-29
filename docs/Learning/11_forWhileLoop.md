@@ -10,7 +10,7 @@ tags:
     - while
 ---
 
-# for and while loop
+# For and while loop
 
 for loop あるいは while loop は使える。無限ループを作ると必ず fail してすべてが revert されるので気をつけて
 

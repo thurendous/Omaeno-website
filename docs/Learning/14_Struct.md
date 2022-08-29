@@ -10,6 +10,8 @@ tags:
     - struct
 ---
 
+# Struct
+
 ```sol
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
@@ -48,7 +50,7 @@ contract Todos {
 
     // textをアップデートする関数
     function updateText(uint _index, string calldata _text) public {
-        Todo memory todo = todos[_index]; // ※storageは気にせず後の章で紹介する
+        Todo storage todo = todos[_index]; // ※storageは気にせず後の章で紹介する
         todo.text = _text;
     }
 
