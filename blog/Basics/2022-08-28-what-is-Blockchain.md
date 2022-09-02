@@ -1,9 +1,9 @@
 ---
 slug: fundamental-knowledge
 title: Fundamental Knowledge
-authors: [Mark, Kogawa]
+authors: [Thurendous, Polymetis]
 blogDescription: 'Blockchainの基礎知識'
-tags: [歴史]
+tags: []
 ---
 
 # What is Web3

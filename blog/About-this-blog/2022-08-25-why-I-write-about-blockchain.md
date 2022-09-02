@@ -1,7 +1,7 @@
 ---
 slug: about-why-I-write-about
 title: About Knowledge
-authors: [Mark, Kogawa]
+authors: [Thurendous, Polymetis]
 blogDescription: 'なぜブロックチェーンの記事をかくのか'
 tags: [ブロックチェーン, about]
 ---
