@@ -1,6 +1,6 @@
 ---
-slug: about-why-I-write-about
-title: About Scaricty
+slug: about-scaricity
+title: About Scaricity
 authors: [Thurendous]
 blogDescription: 'なぜブロックチェーンの記事をかくのか'
 tags: [ブロックチェーン, about]
