@@ -1,6 +1,6 @@
 ---
 title: 15 Storage, Memory and Calldata
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 28, 2022
 keywords: [solidity, storage, memory, calldata]
 description: solidity storage, memory and calldata
@@ -30,11 +30,9 @@ contract DataLocations {
     struct MyStruct {
         uint foo;
     }
-    mapping(uint => MyStruct) myStructs; // NFTでよくある構造
+    mapping(uint => MyStruct) myStructs; // NFTででそうな構造
 
     function f() public {
-        // call _f with state variables
-        _f(arr, map, myStructs[1]);
 
         // mappingからstructを状態変数へ代入
         MyStruct storage myStruct = myStructs[1];
@@ -42,6 +40,7 @@ contract DataLocations {
         MyStruct memory myMemStruct = MyStruct(0);
     }
 
+    // 引数にstorageも入れれる
     function _f(
         uint[] storage _arr,
         mapping(uint => address) storage _map,
@@ -50,13 +49,13 @@ contract DataLocations {
         // do something with storage variables
     }
 
-    // You can return memory variables
+    // メモリの変数を返すことができる
     function g(uint[] memory _arr) public returns (uint[] memory) {
-        // do something with memory array
+         // do something with storage variables
     }
 
+    // calldataの引数が可能
     function h(uint[] calldata _arr) external {
-        // do something with calldata array
     }
 }
 

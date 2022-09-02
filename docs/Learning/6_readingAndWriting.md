@@ -1,6 +1,6 @@
 ---
 title: 6 Read and Write Variables
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 15, 2022
 keywords: [solidity, read, write, variable]
 description: reading and writing an variable in solidity

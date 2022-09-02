@@ -160,7 +160,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} Omae is built with love in Tokyo.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Omaeno is built with love in Tokyo.`,
             },
             // prism: {
             //     theme: lightCodeTheme,

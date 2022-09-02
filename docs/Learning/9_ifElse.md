@@ -1,6 +1,6 @@
 ---
 title: 9 If and Else
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 19, 2022
 keywords: [solidity, if]
 description: solidity conditional statements

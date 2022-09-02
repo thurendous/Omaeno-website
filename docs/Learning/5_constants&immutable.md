@@ -1,6 +1,6 @@
 ---
 title: 5 constant and immutable
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 15, 2022
 keywords: [solidity, constant, immutable]
 description: constants and immutable variables of solidity

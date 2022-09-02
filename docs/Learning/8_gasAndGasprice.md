@@ -1,6 +1,6 @@
 ---
 title: 8 Gas
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 15, 2022
 keywords: [solidity, gas price, gas]
 description: gas and gas price of Ethereum

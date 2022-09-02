@@ -1,6 +1,6 @@
 ---
 title: 12 Mapping
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 27, 2022
 keywords: [solidity, mapping]
 description: solidity mapping

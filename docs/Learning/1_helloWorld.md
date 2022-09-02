@@ -1,6 +1,6 @@
 ---
 title: 1 Hello World
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 11, 2022
 keywords: [solidity, hello, world]
 description: solidity hello world

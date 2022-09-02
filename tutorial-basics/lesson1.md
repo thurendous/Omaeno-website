@@ -1,6 +1,6 @@
 ---
 title: Hello World
-author: MarkWu
+author: thurendous
 date: August 11, 2022
 keywords: [solidity, hello, world]
 description: solidity hello world

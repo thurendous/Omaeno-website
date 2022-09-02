@@ -1,6 +1,6 @@
 ---
 title: 4 Variables
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 15, 2022
 keywords: [solidity, variable]
 description: data type of solidity

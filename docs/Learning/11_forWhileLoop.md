@@ -1,6 +1,6 @@
 ---
 title: 11 for and while loop
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 25, 2022
 keywords: [solidity, while]
 description: solidity while loop

@@ -1,6 +1,6 @@
 ---
 title: 10 Practice
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 19, 2022
 keywords: [solidity, if]
 description: solidity conditional statements
@@ -11,8 +11,8 @@ tags:
 
 # Practice
 
-復習も兼ねてこんなコントラクトを作ってください   
-以下を remix でデプロイしてみて遊んでください。   
+復習も兼ねてこんなコントラクトを作ってください  
+以下を remix でデプロイしてみて遊んでください。  
 これまでの知識を参考にして組み立てましょう！
 
 -   あなたの名前がコントラクト名

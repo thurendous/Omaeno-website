@@ -1,6 +1,6 @@
 ---
 title: 13 Array
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 27, 2022
 keywords: [solidity, array]
 description: solidity array

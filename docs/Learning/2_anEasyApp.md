@@ -1,6 +1,6 @@
 ---
 title: 2 An Easy App
-author: MarkWu, Polymetis
+author: thurendous, Polymetis
 date: August 11, 2022
 keywords: [solidity, app]
 description: an easy app
