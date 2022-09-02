@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[1860],{9902:i=>{i.exports=JSON.parse('{"label":"function","permalink":"/docs/tags/function","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Learning/Function","title":"15 Function","description":"solidity function","permalink":"/docs/Learning/Function"}]}')}}]);
