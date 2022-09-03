@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[4328],{1002:i=>{i.exports=JSON.parse('{"label":"modifier","permalink":"/docs/tags/modifier","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Learning/Modifier","title":"19 Modifier","description":"solidity error","permalink":"/docs/Learning/Modifier"}]}')}}]);

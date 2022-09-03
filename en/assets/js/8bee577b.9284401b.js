@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[7140],{8218:r=>{r.exports=JSON.parse('{"label":"error","permalink":"/en/docs/tags/error","allTagsPath":"/en/docs/tags","count":1,"items":[{"id":"Learning/Error","title":"18 Error","description":"solidity error","permalink":"/en/docs/Learning/Error"}]}')}}]);
