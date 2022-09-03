@@ -113,3 +113,5 @@ contract ArrayRemoveByShifting {
 revert するということはイーサリアムにおいてトランザクションを実行し終わってなくて途中で fail してすべてがロールバックされることを意味します。
 
 :::
+
+[Remix](https://remix.ethereum.org/)で試す

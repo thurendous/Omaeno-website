@@ -43,7 +43,7 @@ contract Function {
         return (1, true, 2);
     }
 
-    // 帰り値は変数に付与できる。この場合return文は省略可能
+    //  返り値は変数に付与できる。この場合return文は省略可能
     function assignedValues()
         public
         pure
@@ -93,3 +93,5 @@ contract Function {
 
 
 ```
+
+[Remix](https://remix.ethereum.org/)で試す

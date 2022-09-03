@@ -7,7 +7,9 @@ description: solidity storage, memory and calldata
 # slug: /hello-world
 tags:
     - basic
-    - storage, memory, calldata
+    - storage
+    - memory
+    - calldata
 ---
 
 # Storage, Memory and Calldata
@@ -61,3 +63,5 @@ contract DataLocations {
 
 
 ```
+
+[Remix](https://remix.ethereum.org/)で試す

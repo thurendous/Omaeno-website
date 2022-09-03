@@ -51,3 +51,5 @@ contract Thurendous {
     }
 }
 ```
+
+[Remix](https://remix.ethereum.org/)で試す

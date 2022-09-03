@@ -68,3 +68,5 @@ contract Todos {
 Solidity を勉強する際には、Solidity を完全マスターするよりも、何か作りたいものを作れるようになることをゴールにしたほうが良いです。
 
 :::
+
+[Remix](https://remix.ethereum.org/)で試す
