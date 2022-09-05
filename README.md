@@ -15,6 +15,9 @@ We want to send this message to all the people who live in Japan and all over th
 
 If you feel the same way and agree with us. Please feel free to follow us and give us a star.
 
+# todo-list
+[Todo-list](https://gist.github.com/thurendous/556856cb1022769bd73e36f780209299)
+
 # Omaeno Contributors
 <div align="center">
   <h4 align="center">
