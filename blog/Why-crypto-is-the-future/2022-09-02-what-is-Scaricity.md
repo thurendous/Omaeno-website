@@ -1,12 +1,12 @@
 ---
 slug: why-crypto-is-the-future,
-title: クリプトはフューチャー
+title: Why Crypto is the Future
 authors: [Thurendous, Polymetis]
 blogDescription: 'なぜクリプトは未来か'
 tags: [ブロックチェーン, about, クリプトは未来, 歴史, メタバース]
 ---
 
-# Why crypto is the future
+# Why Crypto is the Future
 
 ## Crypto is the future
 
