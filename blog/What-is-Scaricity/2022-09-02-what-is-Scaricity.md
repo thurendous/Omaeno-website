@@ -3,7 +3,7 @@ slug: about-scaricity
 title: About Scaricity
 authors: [Thurendous, Polymetis]
 blogDescription: 'なぜブロックチェーンの記事をかくのか'
-tags: [ブロックチェーン, about]
+tags: [ブロックチェーン, scaricity, 希少性]
 ---
 
 # Scarcity
