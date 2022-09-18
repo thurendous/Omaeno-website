@@ -16,7 +16,7 @@ tags:
 -   `virtual`:オーバーライド（上書き）される可能性がある関数につける
 -   `override`:元の関数をオーバーライド（上書き）するときに関数につける
 
-注意：コントラクトの継承については最もベースとなるコントラクトから最も新しく継承したコントラクトの順にしなければならない
+注意：コントラクトの継承については最も親となるコントラクトから最も子供のコントラクトの順にしなければならない
 
 ```sol
 // SPDX-License-Identifier: MIT
@@ -36,45 +36,43 @@ contract A {
     }
 }
 
-// isというワードをつけるだけでコントラクトを継承することができる
+// isをつけるだけでコントラクトを継承することができる
 // この場合：BがAを継承
 contract B is A {
-    // Override A.foo()
+    // オーバーライド A.foo()
     function foo() public pure virtual override returns (string memory) {
         return "B";
     }
 }
 
 contract C is A {
-    // Override A.foo()
+    // A.foo()をオーバーライドする
     function foo() public pure virtual override returns (string memory) {
         return "C";
     }
 }
 
-// Contracts can inherit from multiple parent contracts.
-// When a function is called that is defined multiple times in
-// different contracts, parent contracts are searched from
-// right to left, and in depth-first manner.
+// 複数のコントラクトを継承できる
+// 複数のコントラクトの中で定義されていると、継承の右から検索されていき一番最初にあたったものを使う
 
 contract D is B, C {
-    // D.foo() returns "C"
-    // since C is the right most parent contract with function foo()
+    // D.foo() 返り値 "C"
+    // Cは最も親のコントラクトだから返り値は"C"
     function foo() public pure override(B, C) returns (string memory) {
         return super.foo();
     }
 }
 
 contract E is C, B {
-    // E.foo() returns "B"
-    // since B is the right most parent contract with function foo()
+    // E.foo() 返り値 "B"
+    // Bは最も親のコントラクトだから返り値は"B"
     function foo() public pure override(C, B) returns (string memory) {
         return super.foo();
     }
 }
 
-// Inheritance must be ordered from “most base-like” to “most derived”.
-// Swapping the order of A and B will throw a compilation error.
+// コントラクトの継承については左から最も（元となる）親のコントラクトから最も子供のコントラクトの順にしなければならない
+// ABの順番を逆転させるとエラーがでる
 contract F is A, B {
     function foo() public pure override(A, B) returns (string memory) {
         return super.foo();
