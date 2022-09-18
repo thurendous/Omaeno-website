@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[8897],{4593:s=>{s.exports=JSON.parse('{"label":"scaricity","permalink":"/blog/tags/scaricity","allTagsPath":"/blog/tags","count":1}')}}]);
