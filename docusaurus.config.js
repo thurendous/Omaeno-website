@@ -109,7 +109,10 @@ const config = {
                         position: 'left',
                         label: 'Solidity',
                     },
-                    { to: '/blog', label: 'Knowledge', position: 'left' },
+                    {   to: '/blog',
+                        label: 'Knowledge',
+                        position: 'left',
+                    },
                     {
                         href: 'https://github.com/thurendous',
                         label: 'GitHub',
