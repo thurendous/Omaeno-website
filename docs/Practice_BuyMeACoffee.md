@@ -2,9 +2,9 @@
 title: 23 Practice BuyMeACoffee
 author: thurendous, Polymetis
 date: August 19, 2022
-keywords: [solidity, if]
-description: solidity conditional statements
-# slug: /hello-world
+keywords: [solidity, practice]
+description: solidity conditional statements and practise your solidity by creating an easy app
+# slug: /practice_buy_me_a_coffee
 tags:
     - practice
 ---
