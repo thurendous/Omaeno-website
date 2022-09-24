@@ -33,6 +33,6 @@ contract HelloWorld {
 
 :::tip tip
 
-remix で試すときにきちんと solidity compiler が `0.8.13`と一致するようにしてください
+remix で試すときにきちんと solidity compiler が `0.8.13`より上のsolidityバージョンようにしてください（`^`は「〇〇より上のもの」を意味する）
 
 :::
