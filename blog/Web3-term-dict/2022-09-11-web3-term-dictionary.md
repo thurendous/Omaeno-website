@@ -3,243 +3,258 @@ slug: web3-term-dictionary
 title: Web3 Term Dictionary
 authors: [Thurendous, Polymetis]
 blogDescription: 'Web3用語辞書'
-tags: [ブロックチェーン, Web3,about]
+tags: [ブロックチェーン, Web3, about]
 ---
 
-## Web3流行語
-「gmって何ですか」とよく聞かれるので、Web3の流行語を日本語でまとめて、簡単に調べられるようにして、Web3の言語文化を広めていってわかりやすくなったらいいなと思って作りました。
-web3業界へのハードルが下がって、もっとたくさんの人が参加できるようになって盛り上げていきましょう！
+## Web3 流行語
+
+「gm って何」とよく聞かれるので、Web3 の流行語を日本語でまとめて簡単に調べられるようにして、Web3 の言語文化を広めていってわかりやすくなったらいいなと思って作りました。
+web3 業界へのハードルが下がって、もっとたくさんの人が参加できるようになって盛り上げていければ良いなと思っています。
 
 ### A
-ABI: Application Binary Interfaceは、APIと同様に、2つのバイナリプログラムモジュール間のインターフェイスです。
 
-address: ウォレット/コントラクトのアドレスです。
+ABI: Application Binary Interface は、API と似ていて 2 つのバイナリプログラムモジュール間のインターフェイスのこと
 
-α：超過収益機会。
+address: ウォレット/コントラクトのアドレス
 
-AMA：Ask Me Anything、プロジェクト側の一般参加者への質問と回答。
+Alpha：アルファ、すごい収益のチャンスのこと。
 
-AMM：Autonomous Market Makingの略で、分散型取引所における共通技術。
+AMA：Ask Me Anything、「なんでも聞いてください」のイベントで、プロジェクト側が実施する一般参加者の質問への回答を行うイベントのこと
 
-ape: Stud.
+AMM：Autonomous Market Making の略で、自動的に行われるマーケットメイキング、分散型取引所における共通技術
 
-ATH：All Time Hight、史上最高値のこと。
+ape: All in すること、すべてを賭けてやる
+
+ATH：All Time High、史上最高値のこと
 
 ### B
-Blockchain：ブロックチェーン。
 
-Bridge：クロスチェーンブリッジ、異なるパブリックチェーン上のアセット間を接続するアプリケーション。
+Blockchain：ブロックチェーン
 
-Buy the fucking dip：底値を取ること。
+Bridge：クロスチェーンのブリッジ、異なるパブリックチェーン上のアセットを接続するためのアプリケーション。複雑さがゆえに脆弱性がよく発見される
+
+Buy the fucking dip：仮想通貨を安い値段で拾う（買う）こと
 
 ### C
 
-CeFi：Centralized Financeの略。
+CeFi：Centralized Finance の略で、DeFi の逆
 
-Cex: Centralized Exchange（セントラル・エクスチェンジ）。
+Cex: Centralized Exchange（セントラル・エクスチェンジ）で、Binance、Coincheck などの取引所
 
 ctf: Capture The Flag、サイバーセキュリティの技術コンテスト。
 
-chad： 牛逼的人（一般に男性として言及される）
+chad： すごい人（一般的には男性）
 
 ### D
-DAO: Decentralized Autonomous Organization（分散型自律組織）。
 
-Dapp：分散型アプリケーション、Decentralized Applicationの略。
+DAO: Decentralized Autonomous Organization（分散型自律組織）
 
-DeFi: Decentralized Finance（分散型金融）の略。
+Dapp：分散型アプリケーション、Decentralized Application の略
 
-degen：堕落者、ギャンブル中毒者／ポッキー。
+DeFi: Decentralized Finance（分散型金融）の略
 
-delist: ダウングレード。
+degen：ギャンブル中毒者でやたらと ape in する人
 
-DeSci: Decentralized Science、分散型科学。
+delist: リスティングから除外すること
 
-DeSoc：分散型社会、Decentralized Society。
+DeSci: Decentralized Science、[分散型サイエンス](https://note.com/hirotaiyohamada/n/n82e5c7d22c31)。
 
-DeX：Decentralized Exchange、分散型取引所。
+DeSoc：分散型社会、Decentralized Society
 
-Diamond hands：ダイヤモンドハンド、トークン/NFTを長く保有する人。
+Dex：Decentralized Exchange、分散型取引所
 
-DID: Decentralized Identity（分散型アイデンティティ）。
+Diamond hands：ダイヤモンドハンド、トークン/NFT を長期に渡って保有できる人
 
-discord：コミュニティのための共通情報発信プラットフォーム。
+DID: Decentralized Identity（分散型アイデンティティ）
 
-dm: ダイレクトメッセージ、プライベートメッセージ。
+discord：コミュニティのための共通情報発信プラットフォーム（ラインににているがコミュニティに特化している）
 
-DYOR：Do Your Own Research（自分で調べる）。
+dm: ダイレクトメッセージ、プライベートメッセージ
 
-Due diligence：デューディリジェンス。
+DYOR：Do Your Own Research（自分で調べて自分で責任をとれ）
+
+Due diligence：デューディリジェンス（投資を行うにあたって投資対象となる企業や投資先の価値やリスクなどを調査する適正な努力のこと）
 
 ### E
-EOA: Externally Owned Accounts、イーサネットネットワークの個々のユーザーで、スマートコントラクトのアドレスではありません。
 
-ERC20：Ether 上のトークンを均質化するための規格。
+EOA: Externally Owned Accounts、イーサリアムネットワークの個々のユーザーで、スマートコントラクトのアドレスではないこと、普通のウォレットのこと
 
-ERC721: Ether上の非均質なトークン規格。
+ERC20：Ether 上のトークンを均質化するための規格
+
+ERC721: Ether 上の非均質なトークン規格。
 
 Ethereum：分散型オープンソースブロックチェーンネットワークであるイーサ、およびそのネイティブトークンの名称。
 
-EVM：Ethereum Virtual Machineの略で、ブロックチェーン開発者がイーサリアムブロックチェーン上に分散型アプリケーション（Dapp）を展開するために使用するソフトウェアアプリケーションです。
+EVM：Ethereum Virtual Machine の略で、ブロックチェーン開発者がイーサリアムブロックチェーン上に分散型アプリケーション（Dapp）を展開するために使用するソフトウェアアプリケーションです。
 
 ### F
-fam：家族 家人。
 
-floor price：フロアプライス
+FT：ファンジブルトークン
 
-fren：friend，朋友。
+fam：家族のこと
 
-Fomo：Fear of Missing Out、水を踏むことへの恐怖、やみくもに風を追うことへの恐怖。
+floor price：フロアプライス、スタートの価格のこと
 
-Fud：Fear（恐怖）、Uncertainty（不確実性）、Doubt（疑い）、文句を言うこと。
+fren：friend，友達、友
 
-FYI(for your information)： ご参考までに。
+Fomo：Fear of Missing Out、機会を逃すことが怖くて盲目的に ape in すること
 
-Full Send：フル稼働
+Fud：Fear（恐怖）、Uncertainty（不確実性）、Doubt（疑い）で、市場の悪い面を煽る情報
+
+FYI：for your information（ご参考までに）
+
+Full Send：パワー全開で
 
 ### G
-gas：燃料、ブロックチェーン上で取引を完了させるために必要な計算量。
 
-gas fee：燃料費、ブロックチェーン上で取引を完了するために必要なEtherの量を示す。
+gas：ガス、ブロックチェーン上で取引を完了させるために必要なガスのこと
 
-gas limit：1回の取引で消費できる燃料の最大量。
+gas fee：ガス代、ブロックチェーン上で取引を完了するために必要なガス代（単位は ETH）→ (gas fee) = gas × (gas price)
 
-gas price：ブロックチェーンにおける燃料の単位あたりの価格。
+gas limit：1 回の取引で消費できるガスの最大値
 
-gas war：人気プロジェクトの競争による燃料高騰。
+gas price：ブロックチェーンにおけるガスの単位あたりの価格
 
-gm：おはようございます。web3の "Have you eaten yet? "と同じような意味です。 .
+gas war：人気プロジェクトによるガス代の高騰。
 
-gn：おやすみなさい、おやすみなさい。
+gm：おはようございます。web3 における日常的な挨拶
 
-gg：グッドゲーム
+gn：おやすみなさい
+
+gg：グッドゲーム、ゲーム仲間がよく使う挨拶
 
 ### H
-hacked: ハッキングされた。
 
-HODL：ホールド、ダイヤモンドハンド、ロングホールド。
+hacked: ハッキングされた
+
+HODL：hodl on dear love、ダイヤモンドハンド、長期に渡ってホールドすること
 
 ### I
-IRL：In Real Lifeの略。
 
-ifykyk: 全てを知っている
+IRL：In Real Life の略
+
+ifykyk: わかる人にはわかる
 
 ### L
-layer2: 既存のパブリックチェーンの上に構築されたレイヤー2のフレームワークで、通常、より高速で安価なトランザクション、より多くのストレージスペースを備えています。
 
-LFG：Let's Fucking Go！パンチ！！。 スタッズ!
+layer2: 既存のパブリックチェーンの上に構築されたレイヤー 2 のフレームワークで、通常はレイヤー１より高速で安価なトランザクションを発行でき、より UX がよい
 
-LGTM：見た目はいいんだけどね。
+LFG：Let's Fucking Go！Ape in すること
 
-liquidity： 流動性。
+LGTM：Looking good to me, 見た感じはいいね
 
-LMAO：私のお尻を笑い飛ばす
+liquidity： 流動性
+
+LMAO：クソ笑った
 
 ### M
-maxi：最大主義者、極端主義者。
 
-meme：なぞの原因・仕組み、広めるべきもの。
+maxi：マクシ、何かをものすごい信仰している人
 
-Mempool: トランザクションバッファプール。トランザクションが送信されたときに表示されるが、まだチェーン上にない。
+meme：ミーム、ネタ画像など
+
+Mempool: トランザクションバッファプール。トランザクションが送信された後に mempool には表示されるが、まだチェーン上にのっていない状態
 
 Merkle Tree：ブロックチェーンが大規模なデータセットを安全に検証・集約するために使用するデータ構造。
 
-MEV：Miner Extractable ValueまたはMaximal Extractable Valueの略で、ブロック内の取引を含めたり、除外したり、並び替えたりすることで採掘者が得ることのできる利益を指す。
+MEV：Miner Extractable Value または Maximal Extractable Value の略で、ブロック内のトランザクションを含めたり、除外したり、並び替えたりすることでマイナーが得ることのできる利益のこと
 
-Mint：Mint NFT/ERC20
+Mint：Mint NFT/ERC20、ミントする、鋳造する
 
-Moon：月に、急騰する
+Moon：価格が急騰して月まで飛ぶ、to the moon
 
 ### N
-nfa: Not Financial Advice、投資アドバイスではありません。
 
-NFT: Non-Fungible Token、非均質化トークンです。
+nfa: Not Financial Advice、「フィナンシャルアドバイスではありません」
 
-ngmi: だめだ、うまくいかない。
+NFT: Non-Fungible Token、ノンファンジブルトークンです。
 
-Noob：ルーキー。
+ngmi: not gonna make it, 「だめだ、うまくいかない」
 
-Nonce: イーサリアム取引に関連付けられた番号で、各取引に1つずつ追加される。各Nonceは1度だけ使用できる。
+Noob：ルーキー、新人、くそ素人
+
+Nonce: 重複を防ぐためにイーサリアム取引に関連付けられた番号で、各取引に 1 つずつ追加される。各 Nonce は 1 度だけ使用できる
 
 ### O
-OG：オリジナル・ギャングスター、メタ。
 
-on-chain：オンチェーン。
+OG：Original Gangster、古参の人
 
-off-chain：オンチェーンではなく、オフチェーン。
+on-chain：オンチェーン、ブロックチェーンにのっている
 
-optimistic rollups: optimistic aggregates, an ethereum layer2 solution.
+off-chain：オンチェーンではなく、オフチェーン、ブロックチェーンにのっていない
 
-oracle：プロフェシー・マシン
+optimistic rollups: イーサリアムの layer2 のソリューションの一つ
+
+oracle：[オラクル](https://zenn.dev/jpyc/articles/a8b3710676c433)、非中央集権的にデータをオンチェーンに持ってこれる何か
 
 ### P
-paper hands: ダイヤモンドの手の反意語である紙の手。
 
-pfp: プロフィール画像、個人用アバター。
+paper hands: ダイヤモンドの手の反対語で、全くホールドできない人
 
-PoS：Proof of Stake、Proof of Interestの略で、参加者はポジションプレッジによってブロックチェーンネットワークの正常な機能を維持する。
+pfp: プロフィール画像
 
-PoW：Proof of Work（プルーフ・オブ・ワーク）の略で、参加者が演算能力とエネルギーを消費してブロックチェーン・ネットワークの正常な機能を維持すること。
+PoS：Proof of Stake の略で、参加者は POW のコンピューティングパワーの代わりにトークンの staking によってブロックチェーンネットワークの正常な機能を維持させる
 
-prolly nothing: Probbably Nothing、何も起こらない可能性があることで、ストーリーを売るために使われる。
+PoW：Proof of Work（プルーフ・オブ・ワーク）の略で、参加者がコンピューティングパワーとエネルギーを消費してブロックチェーン・ネットワークの正常な機能を維持させる
+
+prolly nothing: Probbably Nothing、「何も起こらないかもだけど」
 
 ### R
+
 ReFi：Regenerative Finance、再生可能・持続可能な金融。
 
-rekt：大破、終了、破産。
+rekt：大破、終了、破産、ゲームオーバー
 
-roadmap：ロードマップ(大きなパイを描く)。
+roadmap：ロードマップ
 
-RT：Twitterをリツイートする。
+RT：Twitter をリツイートする
 
-rug：ラグプル、失速する／逃げる／ゼロになる。
+rug：ラグプール、逃げる／ゼロになる、プロジェクト側が全ての資金を抜き取って終了する
 
 ### S
-Sandwich Attack：サンドイッチ攻撃・クリップで、攻撃者は被害者の大量の買い注文の前に買い、価格を上げ、被害者の注文の後に売り注文を出し、利益を得ようとする。
 
-SBT：Soulbound Token、魂が宿ったトークン、取引できないNFT。
+Sandwich Attack：サンドイッチ攻撃、mempool でトランザクションは誰でも確認することができることから、被害者はオンチェーンで購入注文を出すと、攻撃者はそれを利用して被害者の購入注文の前後に取引を仕掛けて被害者に効率の悪い取引を強いて、利益を取ろうとする攻撃のこと。こういうことがあることから、オンチェーンの世界は弱肉強食のブラックフォレストとも呼ばれている
 
-shilling: マーケティング。
+SBT：Soulbound Token、魂が宿ったトークン、つまりあなたの魂とバンドルとなって取引できない NFT のこと、ただし、自分は自分の SBT を burn できる
 
-Smart Contracts：ブロックチェーン上で動作するコードの一種。
+shilling: マーケティングする、営業する
 
-solidity: イーサリアム上でスマートコントラクトを記述するための言語です。
+Smart Contracts：ブロックチェーン上で動作するスマートコントラクトのことで、通常は一旦デプロイすると、止められることはない
 
-sweep floor：掃き出し板。
+solidity: イーサリアム上でスマートコントラクトを記述するための言語
 
-Send it: 受信、サポート
+Send it: 了解
 
 ### T
-Tokenomics：トークンの経済学。
 
-To The Moon：高騰している。
+Tokenomics：トークンエコノミー
 
-tradfi: 伝統的金融、主流の金融システム
+tradfi: 伝統的な金融システムのこと
 
-TVL: Total Value Locked、契約書にロックされた資金の合計額。
+TVL: Total Value Locked、プロトコルにロックされた資金の合計
 
 ### U
-Up Only：上がり続ける（皆の良い願い）。
+
+Up Only：価格が上がり続ける（大体は皆の理想な願望なだけ）
 
 ### W
-wagmi：私たちは必ず成功します。 また、多くの共通フックをラップした、一般的なweb3 reactフロントエンドライブラリの名前でもあります。
 
-wallet：財布
+wagmi：We are gonna make it, 私達は必ず成功する。 また、多くの共通フックを含んだ web3 react フロントエンドライブラリの名前でもある → これはおもしろい
 
-web3.0: Web1.0やWeb2.0とは対照的な、分散化とデジタル所有権によって特徴づけられるインターネット。
+wallet：ウォレット
 
-wen：いつ、いつ
+web3.0: Web1.0 や Web2.0 とは対照的なもので、分散化、非中央集権化とデジタル所有権によって特徴づけられるインターネットのこと
 
-WETH：Wrapped Ethereum、イーサリアムのERC20規格をトークン化したもの。
+wen：いつ？
 
-whale：鯨、大量のお金・チップを保有する人。
+wen token：いつエアドロすんの？
 
-WL：Whileリスト、Whiteリスト。
+WETH：Wrapped Ethereum、イーサリアムトークンの ERC20 バージョン
+
+whale：くじら、大量のお金・トークンを保有する人
+
+WL：White list、ホワイトリスト。特権のあるユーザー群のこと
 
 ### Z
-zk: ゼロ知識証明、ある人がある秘密を持っていることを、その秘密自体を明かさずに証明すること。
 
-WTF gmブラックブックコントリビューター
-
-
-www.DeepL.com/Translator（無料版）で翻訳しました。
+zk: zero-knowledge proof, ゼロ知識証明のこと、誰かがある秘密をしっていることを、その秘密自体を明かさずに証明できる
