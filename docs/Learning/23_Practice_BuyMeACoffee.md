@@ -12,9 +12,9 @@ tags:
 # Practice
 
 復習も兼ねて次のコントラクトを[Remix](https://remix.ethereum.org/)でデプロイして遊んでみてください  
-payableについては後の章で述べます。
+payable については後の章で述べます。
 
-参照URL：[AlchemyTutorial](https://docs.alchemy.com/docs/how-to-build-buy-me-a-coffee-defi-dapp)
+参照 URL：[AlchemyTutorial](https://docs.alchemy.com/docs/how-to-build-buy-me-a-coffee-defi-dapp)
 
 [Remix](https://remix.ethereum.org/)で遊ぶ
 
@@ -37,7 +37,7 @@ contract BuyMeACoffee {
         string name,
         string message
     );
-    
+
     // Memo struct.
     struct Memo {
         address from;
@@ -45,7 +45,7 @@ contract BuyMeACoffee {
         string name;
         string message;
     }
-    
+
     // Address of contract deployer. Marked payable so that
     // we can withdraw to this address later.
     address payable owner;
