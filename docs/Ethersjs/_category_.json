@@ -1,14 +1,14 @@
 {
-    "position": 0,
+    "position": 1,
     "label": "Solidity",
     "collapsible": false,
     "collapsed": false,
     "className": "red",
     "link": {
         "type": "generated-index",
-        "title": "Learning Solidity"
+        "title": "Learning ethersjs"
     },
     "customProps": {
-        "description": "Content list of the solidity lessons"
+        "description": "Content list of the ethersjs lessons"
     }
 }
