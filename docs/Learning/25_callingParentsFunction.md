@@ -1,7 +1,7 @@
 ---
 title: 25 Calling Parents' Function
 author: thurendous, Polymetis
-date: September 19, 2022
+date: September 29, 2022
 keywords: [solidity, parents, call]
 description: solidity's inherited functions calling sequence
 # slug: /hello-world
@@ -11,8 +11,8 @@ tags:
     - parents
 ---
 
--   親コントラクトの関数はそのまま呼ぶか、super キーワードを使って呼ぶという方法があります
--   super を使うことで、直近の継承した親コントラクトは全部呼ばれます
+-   親コントラクトの関数はそのまま呼ぶか、super キーワードを使って呼ぶという方法がある
+-   super を使うことで、直近の継承した親コントラクトは全部呼ばれる
 
 ```sol
 // SPDX-License-Identifier: MIT
