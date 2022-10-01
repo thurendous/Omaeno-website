@@ -1,9 +1,9 @@
 ---
-title: 27 Payable
+title: 28 Payable
 author: thurendous, Polymetis
 date: October 1st, 2022
 keywords: [solidity, Payable]
-description: solidity's Payable keyword
+description: understand solidity's Payable keyword through solidity code example
 tags:
     - basic
     - payable

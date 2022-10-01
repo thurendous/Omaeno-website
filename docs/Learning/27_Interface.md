@@ -3,7 +3,7 @@ title: 27 Interface
 author: thurendous, Polymetis
 date: October 1st, 2022
 keywords: [solidity, interface]
-description: solidity's interface
+description: understand solidity's interface through solidity code excample
 tags:
     - basic
     - interface
