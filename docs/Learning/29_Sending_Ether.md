@@ -30,8 +30,6 @@ Ether もどうやってもらうか？
 
 おすすめのメソッドはどれか？
 2019 年以降、`re-entrancy`対策をとった`call`のメソッドが一番おすすめだという。
-Which method should you use?
-call in combination with re-entrancy guard is the recommended method to use after December 2019.
 
 `re-entrency`の対策としては
 
