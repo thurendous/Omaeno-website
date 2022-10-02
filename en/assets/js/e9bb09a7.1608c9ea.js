@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[995],{5977:(e,t,u)=>{u.r(t),u.d(t,{default:()=>l});var a=u(7294),s=u(2164);function l(){return a.createElement(s.Z,null,a.createElement("h1",null,"My React page"),a.createElement("p",null,"This is a React page"))}}}]);
