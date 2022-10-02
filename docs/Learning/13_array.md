@@ -91,7 +91,7 @@ contract ArrayRemoveByShifting {
     // リムーブ関数が正確に機能するかをチェックする関数
     function test() external {
         arr = [1, 2, 3, 4, 5];
-        remove(2); // 2番要素をリムーブ
+        remove(2); // 3番要素をリムーブ
         // [1, 2, 4, 5]
         assert(arr[0] == 1); // 0番要素は1なのか確認
         assert(arr[1] == 2);
