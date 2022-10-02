@@ -31,6 +31,15 @@ function HomepageHeader() {
                         Solidity
                     </Link>
                 </div>
+                <p className="hero__subtitle"> </p>
+                <div className={styles.buttons}>
+                    <Link
+                        className="button button--secondary button--lg"
+                        to="/etherWeiExchange"
+                    >
+                        Tool - Unit Converter
+                    </Link>
+                </div>
             </div>
         </header>
     )
@@ -40,7 +49,7 @@ export default function Home() {
     const { siteConfig } = useDocusaurusContext()
     return (
         <Layout
-            title={`Hello from ${siteConfig.title}`}
+            title={`Hello Web3 by ${siteConfig.title}`}
             description="Description will go into a meta tag in <head />"
         >
             <HomepageHeader />

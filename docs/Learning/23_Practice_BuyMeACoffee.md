@@ -1,5 +1,5 @@
 ---
-title: 23 Practice BuyMeACoffee
+title: 23 Practice
 author: thurendous, Polymetis
 date: August 19, 2022
 keywords: [solidity, practice]
@@ -11,6 +11,7 @@ tags:
 
 # Practice
 
+<<<<<<< HEAD
 復習も兼ねてCoffeeを奢ってもらうコントラクトを作成してみてください。
 
 仕様は次のようになっています。
@@ -21,6 +22,10 @@ tags:
 
 復習も兼ねて次のコントラクトを[Remix](https://remix.ethereum.org/)でデプロイして遊んでみてください  
 payable については後の章で述べます。
+=======
+復習も兼ねて次のコントラクトを[Remix](https://remix.ethereum.org/)でデプロイして遊んでみて
+payable については後の章で述べる
+>>>>>>> c7a320f2fc1c4281f5c39771f147737410c3bcc4
 
 参照 URL：[AlchemyTutorial](https://docs.alchemy.com/docs/how-to-build-buy-me-a-coffee-defi-dapp)
 

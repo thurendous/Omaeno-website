@@ -1,12 +1,12 @@
 {
     "position": 1,
-    "label": "Solidity",
+    "label": "Ethers.js",
     "collapsible": false,
     "collapsed": false,
     "className": "red",
     "link": {
         "type": "generated-index",
-        "title": "Learning ethersjs"
+        "title": "Learning Ethers.js"
     },
     "customProps": {
         "description": "Content list of the ethersjs lessons"
