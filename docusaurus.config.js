@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Omae No',
-    tagline: 'Simple',
+    title: 'Hello Web3',
+    tagline: 'Omaeno',
     url: 'https://omaeno.xyz',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -109,8 +109,10 @@ const config = {
                         position: 'left',
                         label: 'Solidity',
                     },
-                    {   to: '/blog',
-                        label: 'Knowledge',
+                    { to: '/blog', label: 'Knowledge', position: 'left' },
+                    {
+                        to: '/etherWeiExchange',
+                        label: 'Unit Converter',
                         position: 'left',
                     },
                     {
