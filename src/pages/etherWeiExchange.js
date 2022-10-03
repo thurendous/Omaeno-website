@@ -12,6 +12,17 @@ export default function UnitConverter() {
     const [gweiAmount, setGweiAmount] = useState(0)
     const [weiAmount, setWeiAmount] = useState(0)
 
+    // utils
+    const removeLeadingZeros = (s) => {
+        const oldLen = s.length
+        s = s.replace(/^0+/, '')
+
+        if (s.length === 0 && oldLen > 0) {
+            s = ''
+        }
+        return s
+    }
+
     const parseEther = (amount) => {
         return ethers.utils.parseEther(amount)
     }
@@ -30,31 +41,33 @@ export default function UnitConverter() {
     }
 
     const onEtherInput = (e) => {
-        if (e.target.value === '') return 0
-        else if (e.target.value < 0) return 0
-        let value = e.target.value
+        if (e.target.value === '') return ''
+        else if (e.target.value < 0) return ''
+        let value = e.target.value.toString()
         // console.log(toWei(value.toString()))
+        value = removeLeadingZeros(value)
         setEtherAmount(value)
-        console.log(etherAmount)
         setWeiAmount(parseEther(value))
         setGweiAmount(parseGwei(value))
     }
 
     const onGweiInput = (e) => {
-        if (e.target.value === '') return 0
-        else if (e.target.value < 0) return 0
+        if (e.target.value === '') return ''
+        else if (e.target.value < 0) return ''
         let value = e.target.value
         // console.log(toWei(value.toString()))
+        value = removeLeadingZeros(value)
         setGweiAmount(value)
         setWeiAmount(parseGwei(value))
         setEtherAmount(formatGwei(value))
     }
 
     const onWeiInput = (e) => {
-        if (e.target.value === '') return 0
-        else if (e.target.value < 0) return 0
-        let value = e.target.value
+        if (e.target.value === '') return ''
+        else if (e.target.value < 0) return ''
         // console.log(toWei(value.toString()))
+        let value = e.target.value
+        value = removeLeadingZeros(value)
         setWeiAmount(value)
         setGweiAmount(formatGwei(value))
         setEtherAmount(formatEther(value))
@@ -97,6 +110,7 @@ export default function UnitConverter() {
                                 margin="normal"
                                 fullWidth
                                 onChange={onEtherInput}
+                                placeholder="Ether"
                             />
                         </div>
                         <div>
