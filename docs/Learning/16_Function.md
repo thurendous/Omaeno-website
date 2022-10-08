@@ -18,7 +18,7 @@ pragma solidity ^0.8.13;
 
 contract Function {
     // 複数の返り値を持つ関数
-    function returnManyValues()
+    function returnMany()
         public
         pure
         returns (

@@ -55,9 +55,9 @@ contract C is A, B {
     }
 }
 
-// constructorの書く順にかかわらず、constructorが呼ばれる順番はA, B, D
-
+// constructorが呼ばれる順番はA, B, D
 contract D is A, B {
+    // constructor()の後ろのA("X was called") B("Y was called")が書かれる順にかかわらず、constructorが呼ばれる順番はA, B, D
     constructor() A("X was called") B("Y was called") {}
 }
 
@@ -73,3 +73,5 @@ contract E is A, B {
 一個のファイルにコントラクトは何個あってもいいです。ただし、constructor はコントラクトごとに一個しか書けません。
 
 :::
+
+[Remix](https://remix.ethereum.org/)で試す

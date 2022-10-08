@@ -25,7 +25,7 @@ pragma solidity ^0.8.13;
 
 // MyContractがICounterのインターフェースを使って
 // Counterコントラクトの関数を呼び出す
-contract Counter {
+contract Counter is ICounter {
     uint public count;
 
     function increment() external {
@@ -85,3 +85,11 @@ contract UniswapExample {
 
 
 ```
+
+:::info コラム
+
+interface があることによって、他の人が作成したコントラクトを呼び出すことができ、ブロックチェーンにあるコントラクトの相互結合ができて、これがいわゆるブロックチェーンにあるスマートコントラクトの「コンポザビリティ」ができる。子供のおもちゃのレゴみたいにどんどんどんどん組み上げられて高度なアプリケーションが作れるようになる。もちろん、レゴみたいに中間において一個だけが崩れると全体が崩れるので、リスクもそれだけ増えることになる。
+
+:::
+
+[Remix](https://remix.ethereum.org/)で試す

@@ -13,14 +13,14 @@ export default function UnitConverter() {
     const [weiAmount, setWeiAmount] = useState(0)
 
     // utils
-    const removeLeadingZeros = (s) => {
-        const oldLen = s.length
-        s = s.replace(/^0+/, '')
+    const removeLeadingZeros = (num) => {
+        const oldLen = num.length
+        num = num.replace(/^0+/, '')
 
-        if (s.length === 0 && oldLen > 0) {
-            s = ''
+        if (num.length === 0 && oldLen > 0) {
+            num = ''
         }
-        return s
+        return num
     }
 
     const parseEther = (amount) => {

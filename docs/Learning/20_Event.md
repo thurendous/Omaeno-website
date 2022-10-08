@@ -21,7 +21,7 @@ pragma solidity ^0.8.13;
 
 contract Event {
     // eventの宣言、３つのindexed引数の宣言が可能
-    // indexedした引数はログのフィルタリングを助けてくれる
+    // indexedした引数はログのフィルタリングを助けてくれる。特にフロントエンドで使われる。
     event Log(address indexed caller, string message);
     event AnotherLog();
 
@@ -33,3 +33,5 @@ contract Event {
     }
 }
 ```
+
+[Remix](https://remix.ethereum.org/)で試す
