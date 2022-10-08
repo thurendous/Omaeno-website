@@ -26,24 +26,25 @@ pragma solidity ^0.8.13;
 contract Fallback {
     event Log(string func, uint gas);
 
-    // Fallback function must be declared as external.
+    // fallback関数は必ずexternalをつけること
     fallback() external payable {
         // send / transfer (forwards 2300 gas to this fallback function)
         // call (forwards all of the gas)
         emit Log("fallback", gasleft());
     }
 
-    // Receive is a variant of fallback that is triggered when msg.data is empty
+    // receive関数はfallbackの変異種で、msg.dataが空っぽなときに呼ばれる
     receive() external payable {
         emit Log("receive", gasleft());
     }
 
-    // Helper function to check the balance of this contract
+    // 当該コントラクトの残高を確認する
     function getBalance() public view returns (uint) {
         return address(this).balance;
     }
 }
 
+// fallbackやreceive関数を呼び出すためのもの
 contract SendToFallback {
     function transferToFallback(address payable _to) public payable {
         _to.transfer(msg.value);
