@@ -48,12 +48,12 @@ contract DataLocations {
         mapping(uint => address) storage _map,
         MyStruct storage _myStruct
     ) internal {
-        // do something with storage variables
+        // 何かをする
     }
 
     // メモリの変数を返すことができる
     function g(uint[] memory _arr) public returns (uint[] memory) {
-         // do something with storage variables
+         // 何かをする
     }
 
     // calldataの引数が可能
@@ -63,5 +63,13 @@ contract DataLocations {
 
 
 ```
+
+:::info コラム
+
+remix でやってみるとわかると思いますが、`_f()`関数がでてきません。というのは
+internal か private な関数はコントラクト内部からのみ呼び出せるようにするためのキーワードだからで、
+public あるいは external な関数は外部から呼び出せるように用意したキーワードですから、出てきます。詳細は visibility のレッスンで詳述しています。
+
+:::
 
 [Remix](https://remix.ethereum.org/)で試す

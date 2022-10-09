@@ -36,16 +36,18 @@ contract Todos {
         todos.push(Todo({text: _text, completed: false}));
 
         // ③空っぽなstructを作成して後から代入
+
         Todo memory todo;
         todo.text = _text;
         // todo.completedの初期値はfalseだから代入は不要
+        // memoryに一時保存した値をstorageの値に書き出す
         todos.push(todo);
     }
 
     // 'public'で宣言しているので、Solidityはgetter関数を用意してくれているのでこの関数はなくてもよい
     function get(uint _index) public view returns (string memory text, bool completed) {
-        Todo storage todo = todos[_index]; // storageにしないとmemoryになるのでtodoは書き換えられない
-        return (todo.text, todo.completed); // 複数の値を返したいときによく使うパターン
+        Todo memory todo = todos[_index];
+        return (todo.text, todo.completed); // 複数の値を返したいときによく使うパターン: (X, Y)
     }
 
     // textをアップデートする関数
@@ -54,9 +56,10 @@ contract Todos {
         todo.text = _text;
     }
 
-    // todoが完了するとcompletedをtrueにする関数
+    // todoが完了するとcompletedのbool値を切り替える
     function toggleCompleted(uint _index) public {
-        Todo storage todo = todos[_index]; // storageにしないとmemoryになるのでtodoは書き換えられない
+        Todo storage todo = todos[_index]; // storageにしないとmemoryになるので状態変数のtodoは書き換えられない
+        // storageにしないとmemoryになるのでtodoは書き換えられない
         todo.completed = !todo.completed;
     }
 }

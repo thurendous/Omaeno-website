@@ -88,3 +88,5 @@ contract Child is Base {
 }
 
 ```
+
+[Remix](https://remix.ethereum.org/)で試す

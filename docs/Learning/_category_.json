@@ -2,7 +2,7 @@
     "position": 0,
     "label": "Solidity Basics",
     "collapsible": true,
-    "collapsed": false,
+    "collapsed": true,
     "className": "red",
     "link": {
         "type": "generated-index",

@@ -41,3 +41,5 @@ contract C is A {
 }
 
 ```
+
+[Remix](https://remix.ethereum.org/)で試す

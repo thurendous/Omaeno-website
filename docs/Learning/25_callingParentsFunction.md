@@ -12,7 +12,7 @@ tags:
 ---
 
 -   親コントラクトの関数はそのまま呼ぶか、super キーワードを使って呼ぶという方法がある
--   super を使うことで、直近の継承した親コントラクトは全部呼ばれる
+-   super を使うことで、直近の継承した親コントラクトの同じ名前の関数が全部呼ばれる
 
 ```sol
 // SPDX-License-Identifier: MIT
@@ -30,6 +30,7 @@ contract A {
     // これはイベントで、関数から放出することが可能
     // トランザクションのログとして記録される
     // 関数の呼ばれることを追跡することに関して有効になる
+    // →これについてはフロントエンドの方でやることが多いのでそちらをやると理解されるだろう
     event Log(string message);
 
     function foo() public virtual {
@@ -83,3 +84,5 @@ contract D is B, C {
 }
 
 ```
+
+[Remix](https://remix.ethereum.org/)で試す

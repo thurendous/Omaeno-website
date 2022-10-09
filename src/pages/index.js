@@ -22,7 +22,7 @@ function HomepageHeader() {
                         Knowledge
                     </Link>
                 </div>
-                <p className="hero__subtitle"> </p>
+                <p className="hero__subtitle"></p>
                 <div className={styles.buttons}>
                     <Link
                         className="button button--secondary button--lg"
@@ -31,11 +31,20 @@ function HomepageHeader() {
                         Solidity
                     </Link>
                 </div>
-                <p className="hero__subtitle"> </p>
+                <p className="hero__subtitle"></p>
                 <div className={styles.buttons}>
                     <Link
                         className="button button--secondary button--lg"
-                        to="/etherWeiExchange"
+                        to="/docs/category/ethersjs"
+                    >
+                        Ethers.js
+                    </Link>
+                </div>
+                <p className="hero__subtitle"></p>
+                <div className={styles.buttons}>
+                    <Link
+                        className="button button--secondary button--lg"
+                        to="/unitConverter"
                     >
                         Tool - Unit Converter
                     </Link>

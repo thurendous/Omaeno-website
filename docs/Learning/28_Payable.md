@@ -19,7 +19,7 @@ contract Payable {
     // Payableをつけたアドレスはイーサを受け取れる
     address payable public owner;
 
-    // Payableをつけたconstructorも同様にイーサを受け取れる
+    // Payableをつけることで、デプロイ時に呼び出されるconstructorを経由してコントラクトはイーサを受け取れる
     constructor() payable {
         owner = payable(msg.sender);
     }
@@ -40,6 +40,7 @@ contract Payable {
 
         // すべてのイーサをオーナーへ送金
         // オーナーがイーサの送金先のため、見ての通りpayableというワードがつけられている
+        // ("")はデータを送りたいときに埋めるところなので、イーサを送るだけだといらないから空っぽにしている→最初はまだ理解しなくてよい
         (bool success, ) = owner.call{value: amount}("");
         require(success, "Failed to send Ether");
     }
@@ -53,3 +54,5 @@ contract Payable {
 }
 
 ```
+
+[Remix](https://remix.ethereum.org/)で試す

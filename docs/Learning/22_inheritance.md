@@ -57,7 +57,7 @@ contract C is A {
 
 contract D is B, C {
     // D.foo() 返り値 "C"
-    // Cは最も親のコントラクトだから返り値は"C"
+    // CはD, B, Cの中で、親のコントラクトで、しかもisの後ろにおいて一番右側に位置するから返り値は"C"
     function foo() public pure override(B, C) returns (string memory) {
         return super.foo();
     }
@@ -65,7 +65,7 @@ contract D is B, C {
 
 contract E is C, B {
     // E.foo() 返り値 "B"
-    // Bは最も親のコントラクトだから返り値は"B"
+    // BはE, C, Bの中で親のコントラクトで、isの後ろに一番右側に位置するから返り値は"B"
     function foo() public pure override(C, B) returns (string memory) {
         return super.foo();
     }
@@ -79,3 +79,5 @@ contract F is A, B {
     }
 }
 ```
+
+[Remix](https://remix.ethereum.org/)で試す
