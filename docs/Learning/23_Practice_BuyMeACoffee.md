@@ -11,8 +11,15 @@ tags:
 
 # Practice
 
-復習も兼ねて次のコントラクトを[Remix](https://remix.ethereum.org/)でデプロイして遊んでみて
-payable については後の章で述べる
+
+復習も兼ねてCoffeeを奢ってもらうコントラクトを作成してみてください。
+
+仕様は次のようになっています。
+
+
+復習も兼ねて次のコントラクトを[Remix](https://remix.ethereum.org/)でデプロイして遊んでみてください  
+payable については後の章で述べます。
+
 
 参照 URL：[AlchemyTutorial](https://docs.alchemy.com/docs/how-to-build-buy-me-a-coffee-defi-dapp)
 

@@ -14,7 +14,7 @@ Modifier は非常に多用されるので、なれるといいでしょう。�
 
 -   アクセス権の制限
 -   条件の検証
--   re-entrency attack を防ぐ
+-   re-entrancy attack を防ぐ
 
 ```sol
 // SPDX-License-Identifier: MIT
@@ -50,7 +50,7 @@ contract Modifier {
         owner = _newOwner;
     }
 
-    // ここでは関数の実行中にもう一度呼ばれることを防ぐために、ロックをかけている→re-entrency attackの対策
+    // ここでは関数の実行中にもう一度呼ばれることを防ぐために、ロックをかけている→re-entrancy attackの対策
     modifier noReentrancy() {
         require(!locked, "No reentrancy");
 
