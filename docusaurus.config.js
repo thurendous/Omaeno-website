@@ -103,20 +103,30 @@ const config = {
                     src: 'img/logo.png',
                 },
                 items: [
-                    {
-                        type: 'doc',
-                        docId: 'intro',
-                        position: 'left',
-                        label: 'Solidity',
-                    },
                     { to: '/blog', label: 'Knowledge', position: 'left' },
+                    // {
+                    //     type: 'doc',
+                    //     docId: 'Learning/helloWorld',
+                    //     position: 'left',
+                    //     label: 'Solidity',
+                    // },
                     {
-                        to: '/etherWeiExchange',
-                        label: 'Unit Converter',
+                        to: '/docs/category/solidity-basics',
+                        label: 'Solidity',
                         position: 'left',
                     },
                     {
-                        href: 'https://github.com/thurendous',
+                        to: '/docs/category/ethersjs',
+                        label: 'Ethers.js',
+                        position: 'left',
+                    },
+                    {
+                        to: '/unitConverter',
+                        label: 'Unit Converter',
+                        position: 'right',
+                    },
+                    {
+                        href: 'https://github.com/thurendous/Omaeno-website',
                         label: 'GitHub',
                         position: 'right',
                     },
