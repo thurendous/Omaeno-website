@@ -28,8 +28,8 @@ contract Fallback {
 
     // fallback関数は必ずexternalをつけること
     fallback() external payable {
-        // send / transfer (forwards 2300 gas to this fallback function)
-        // call (forwards all of the gas)
+        // send / transfer の場合はたった2,300gasをfallback関数に送付しているので大したことはできない → これはThe DAO事件の反省からと思われる
+        // call の場合はすべてのgasをfallbackへ送付できる
         emit Log("fallback", gasleft());
     }
 
@@ -51,10 +51,13 @@ contract SendToFallback {
     }
 
     function callFallback(address payable _to) public payable {
-        (bool sent, ) = _to.call{value: msg.value}("");
+        (bool sent, ) = _to.call{value: msg.value}("0x222222");
         require(sent, "Failed to send Ether");
     }
 }
 ```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FwCqxHGfHAk" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FwCqxHGfHAk" frameborder="0" allowfullscreen></iframe>
 
 [Remix](https://remix.ethereum.org/)で試す

@@ -34,11 +34,13 @@ v18.9.0
 ```
 
 terminal 開いて以下のコマンドをやっていきましょう
-フォルダを作成
-npm で`ethers.js`インストールしてください
+
+-   フォルダを作成
+-   npm で`ethers.js`をインストール
 
 ```
 $ mkdir helloVitalik
+$ cd helloVitalik
 $ npm install -D ethers
 ```
 
@@ -85,7 +87,7 @@ ETH Balance of vitalik: 1001.59178559719869201 ETH
 
 :::info コラム
 
-ethers.provider を使用すると、Ethereum ブロックチェーンへの接続を抽象化することができます。これは、ブロックチェーンの状態を変更するクエリの発行や署名付きトランザクションの送信に使用することができます。以下に 3 つの例示を示します。
+ethers.provider を使用すると、Ethereum ブロックチェーンへの接続を抽象化することができます。これは、ブロックチェーンの状態を変更するクエリの発行や署名付きトランザクションの送信に使用することができます。
 
 引用元：[ethers.js とは(ethers.js の基本概念や特徴の解説)](https://zenn.dev/nft/books/410be300912936/viewer/00c605)
 
