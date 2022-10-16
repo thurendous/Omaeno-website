@@ -1,5 +1,5 @@
 ---
-title: 34 Contract that Creates other Contract
+title: 35 Contract that Creates other Contract
 author: thurendous, Polymetis
 date: October 16th, 2022
 keywords: [solidity, contract, new]

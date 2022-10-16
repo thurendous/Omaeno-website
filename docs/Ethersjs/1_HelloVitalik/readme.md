@@ -1,13 +1,14 @@
 ---
 title: 1 Hello Vitalik
 author: thurendous, Polymetis
-date: August 11, 2022
-keywords: [solidity, hello, world]
+date: October 1st, 2022
+keywords: [ethers.js, hello, vitalik]
 description: Check ether balance using etherjs
 # slug: /hello-world
 tags:
     - basic
     - first-step
+    - balance
 ---
 
 # Hello Vitalik
