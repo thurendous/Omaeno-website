@@ -5,7 +5,6 @@ date: October 7st, 2022
 keywords: [solidity, fallback]
 description: understand fallback function through solidity code example
 tags:
-    - basic
     - solidity
     - fallback
 ---
@@ -51,13 +50,10 @@ contract SendToFallback {
     }
 
     function callFallback(address payable _to) public payable {
-        (bool sent, ) = _to.call{value: msg.value}("0x222222");
+        (bool sent, ) = _to.call{value: msg.value}("0x222222"); // random data
         require(sent, "Failed to send Ether");
     }
 }
 ```
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FwCqxHGfHAk" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FwCqxHGfHAk" frameborder="0" allowfullscreen></iframe>
 
 [Remix](https://remix.ethereum.org/)で試す

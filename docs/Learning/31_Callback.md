@@ -1,17 +1,16 @@
 ---
 title: 30 Callback
 author: thurendous, Polymetis
-date: October 7st, 2022
+date: October 16th, 2022
 keywords: [solidity, callback]
 description: understand callback function through solidity code example
 tags:
-    - basic
     - solidity
     - callback
 ---
 
-call は低いレベルの関数で、他のコントラクトとのやり取りをするときに使われる。
-これはイーサを送るときに進められているやり方だが、コントラクトに存在する関数を呼ぶための関数としては勧められていない。
+`call`は低いレベルの関数で、他のコントラクトとのやり取りをするときに使われる。
+これはイーサを送るときに勧められているやり方だが、コントラクトに存在する関数を呼ぶための関数としては勧められていない。
 
 ```sol
 // SPDX-License-Identifier: MIT
@@ -34,8 +33,7 @@ contract Receiver {
 contract Caller {
     event Response(bool success, bytes data);
 
-    // Let's imagine that contract Caller does not have the source code for the
-    // contract Receiver, but we do know the address of contract Receiver and the function to call.
+    // contrct Receiverのソースコードがわからなくて、関数名と引数の型だけわかったとする。こんな形でReceiverの関数を呼び出せる
     function testCallFoo(address payable _addr) public payable {
         // You can send ether and specify a custom gas amount
         (bool success, bytes memory data) = _addr.call{value: msg.value, gas: 5000}(
@@ -45,7 +43,7 @@ contract Caller {
         emit Response(success, data);
     }
 
-    // Calling a function that does not exist triggers the fallback function.
+    // 存在しない関数を呼び出そうとすると、fallback関数が呼ばれることになる
     function testCallDoesNotExist(address _addr) public {
         (bool success, bytes memory data) = _addr.call(
             abi.encodeWithSignature("doesNotExist()")
@@ -56,3 +54,5 @@ contract Caller {
 }
 
 ```
+
+[Remix](https://remix.ethereum.org/)で試す
