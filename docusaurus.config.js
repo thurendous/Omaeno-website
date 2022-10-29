@@ -35,6 +35,7 @@ const config = {
                 anonymizeIP: true,
             },
         ],
+        require.resolve('@cmfcmf/docusaurus-search-local'),
     ],
     presets: [
         [
