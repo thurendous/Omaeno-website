@@ -1,5 +1,5 @@
 ---
-title: 1 Provider
+title: 2 Provider
 author: thurendous
 date: October 11th, 2022
 keywords: [ethers.js, provider]

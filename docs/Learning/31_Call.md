@@ -1,12 +1,12 @@
 ---
-title: 31 Callback
+title: 31 Call
 author: thurendous, Polymetis
 date: October 16th, 2022
-keywords: [solidity, callback]
+keywords: [solidity, call]
 description: understand callback function through solidity code example
 tags:
     - solidity
-    - callback
+    - call
 ---
 
 `call`は低いレベルの関数で、他のコントラクトとのやり取りをするときに使われる。
