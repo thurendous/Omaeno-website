@@ -1,0 +1,14 @@
+{
+    "position": 1,
+    "label": "Solidity Advanced",
+    "collapsible": true,
+    "collapsed": true,
+    "className": "red",
+    "link": {
+        "type": "generated-index",
+        "title": "Learning Advanced Solidity"
+    },
+    "customProps": {
+        "description": "Content list of the solidity advanced lessons"
+    }
+}

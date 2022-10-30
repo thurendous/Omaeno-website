@@ -2,7 +2,7 @@
 title: 36 Try and Catch
 author: thurendous, Polymetis
 date: October 16th, 2022
-keywords: [solidity, tre, catch]
+keywords: [solidity, try, catch]
 description: understand try and chatch syntax through solidity code example
 tags:
     - solidity

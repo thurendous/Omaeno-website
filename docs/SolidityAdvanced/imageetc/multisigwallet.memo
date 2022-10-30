@@ -1,0 +1,24 @@
+```mermaid
+graph LR
+    A[Multi-sig Wallet] -->B{Event}
+    A --> C[state variables]
+    C --> owners
+    C --> isOwners
+    C --> numConfirmationRequired
+    C --> transactions
+    A --> modifier
+    modifier --> onlyOwner("onlyOwner()")
+    modifier --> txExists("txExists()")
+    modifier --> notExecuted("notExecuted()")
+    modifier --> notConfirmed("notConfirmed()")
+    A --> CON("constructor()")
+    A --> receive("receive()")
+    A --> submitTransaction("submitTransaction()")
+    A --> confirmTransaction("confirmTransaction()")
+    A --> executeTransaction("executeTransaction()")
+    A --> revokeConfirmation("revokeConfirmation()")
+    A --> getOwners("getOwners()")
+    A --> getTransaction("getTransaction()")
+
+
+```

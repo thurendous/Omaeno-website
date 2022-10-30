@@ -1,5 +1,5 @@
 {
-    "position": 1,
+    "position": 5,
     "label": "Ethers.js",
     "collapsible": true,
     "collapsed": true,
@@ -9,6 +9,6 @@
         "title": "Learning Ethers.js"
     },
     "customProps": {
-        "description": "Content list of the ethersjs lessons"
+        "description": "Content list of the ethers.js lessons"
     }
 }
