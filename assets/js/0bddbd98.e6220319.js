@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[4359],{4102:e=>{e.exports=JSON.parse('{"title":"Learning Solidity","slug":"/category/solidity-basics","permalink":"/docs/category/solidity-basics","navigation":{"next":{"title":"1 Hello World","permalink":"/docs/Learning/helloWorld"}}}')}}]);
