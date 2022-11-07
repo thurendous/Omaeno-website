@@ -6,7 +6,7 @@
     "className": "red",
     "link": {
         "type": "generated-index",
-        "title": "Learning Solidity"
+        "title": "Learning Solidity Basics"
     },
     "customProps": {
         "description": "Content list of the solidity lessons"
