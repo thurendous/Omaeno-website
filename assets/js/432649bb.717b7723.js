@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[8206],{3149:s=>{s.exports=JSON.parse('{"label":"NFT","permalink":"/docs/tags/nft","allTagsPath":"/docs/tags","count":1,"items":[{"id":"SolidityAdvanced/ERC721","title":"3 ERC721","description":"solidity ERC721 NFT","permalink":"/docs/SolidityAdvanced/ERC721"}]}')}}]);
