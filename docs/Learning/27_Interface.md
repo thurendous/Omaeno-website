@@ -23,6 +23,14 @@ Interface の特徴
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
+// interfaceにある関数は全部external
+interface ICounter {
+    function count() external view returns (uint);
+
+    function increment() external;
+}
+
+
 // MyContractがICounterのインターフェースを使って
 // Counterコントラクトの関数を呼び出す
 contract Counter is ICounter {
@@ -31,13 +39,6 @@ contract Counter is ICounter {
     function increment() external {
         count += 1;
     }
-}
-
-// interfaceにある関数は全部external
-interface ICounter {
-    function count() external view returns (uint);
-
-    function increment() external;
 }
 
 contract MyContract {
