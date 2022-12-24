@@ -2,7 +2,7 @@
 slug: what-is-ERC721-and-NFT
 title: NFT、ERC721とはなんぞや
 authors: [Thurendous, Polymetis]
-blogDescription: 'ERC721はなんぞや'
+blogDescription: 'ERC721とはなんぞや'
 tags: [ERC721, NFT, solidity]
 ---
 
@@ -531,3 +531,5 @@ interface ERC721TokenReceiver {
 実はこのインターフェイスとは、この `onERC721REceived` 関数のことです。この関数を実装していれば、NFT を処理する能力があるという宣言になります。
 
 **THE END**
+
+![](ethereum-eth.gif))
