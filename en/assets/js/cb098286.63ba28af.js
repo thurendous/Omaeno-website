@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[8141],{8149:s=>{s.exports=JSON.parse('{"label":"NFT","permalink":"/en/blog/tags/nft","allTagsPath":"/en/blog/tags","count":1}')}}]);
