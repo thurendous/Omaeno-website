@@ -532,4 +532,4 @@ interface ERC721TokenReceiver {
 
 **THE END**
 
-![](ethereum-eth.gif))
+![](ethereum-eth.gif)
