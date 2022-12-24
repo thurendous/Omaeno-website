@@ -1,8 +1,8 @@
 ---
 slug: private-variable-in-solidity
-title: solidityにおいてなぜprivateな変数はプライベートではないのか
+title: solidityにおいてなぜprivateな変数はprivateではないのか
 authors: [Thurendous, Polymetis]
-blogDescription: 'なぜクリプトは未来か'
+blogDescription: 'プライベートな変数はプライベートではない'
 tags: [private, variable, solidity, 変数]
 ---
 
