@@ -61,3 +61,4 @@ tags: [ブロックチェーン, about]
 -   国境がない世界
 -   blockchain の仕組み
 -   人口分布の関係
+-   技術系関連の solidity などの記事

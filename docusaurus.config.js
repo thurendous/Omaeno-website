@@ -50,6 +50,9 @@ const config = {
                         'https://github.com/thurendous/Omaeno-website/tree/master/',
                 },
                 blog: {
+                    blogTitle: 'Omaeno blog site',
+                    blogDescription:
+                        'web3 and solidity knowledges and articles',
                     showReadingTime: true, // When set to false, the "x min read" won't be shown
                     readingTime: ({
                         content,

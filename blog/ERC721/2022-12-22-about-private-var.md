@@ -1,6 +1,6 @@
 ---
 slug: what-is-ERC721-and-NFT
-title: NFT、ERC721とはなんぞや
+title: NFT、ERC721とはなんぞや（コード解説）
 authors: [Thurendous, Polymetis]
 blogDescription: 'ERC721とはなんぞや'
 tags: [ERC721, NFT, solidity]
