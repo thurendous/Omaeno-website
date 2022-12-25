@@ -6,7 +6,7 @@ blogDescription: 'ERC721とはなんぞや'
 tags: [ERC721, NFT, solidity]
 ---
 
-# TL;DR：
+# TL;DR
 
 -   NFT は非代替性トークンのこと
 -   シンプルにいうとデジタル所有権のこと
