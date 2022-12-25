@@ -1,5 +1,5 @@
 ---
-slug: what-is-ERC721-and-NFT
+slug: what-is-ERC1155-with-code-explained
 title: ERC1155のコード解説
 authors: [Thurendous, Polymetis]
 blogDescription: 'ERC721とはなんぞや'

@@ -1,5 +1,5 @@
 ---
-slug: private-variable-in-solidity
+slug: private-variable-in-solidity-with-code-explained
 title: solidityにおいてなぜprivateな変数はprivateではないのか
 authors: [Thurendous, Polymetis]
 blogDescription: 'プライベートな変数はプライベートではない'

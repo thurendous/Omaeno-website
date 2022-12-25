@@ -1,5 +1,5 @@
 ---
-slug: what-is-ERC721-and-NFT
+slug: what-is-ERC721-and-NFT-with-code-explained
 title: NFT、ERC721とはなんぞや（コード解説）
 authors: [Thurendous, Polymetis]
 blogDescription: 'ERC721とはなんぞや'
