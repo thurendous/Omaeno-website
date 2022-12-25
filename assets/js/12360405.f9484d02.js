@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[8102],{5679:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/erc-721","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"web3 and solidity knowledges and articles","blogTitle":"Omaeno blog site"}')}}]);

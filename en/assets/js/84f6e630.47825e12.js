@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[7933],{4739:e=>{e.exports=JSON.parse('{"permalink":"/en/blog/tags/\u5e0c\u5c11\u6027","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"web3 and solidity knowledges and articles","blogTitle":"Omaeno blog site"}')}}]);

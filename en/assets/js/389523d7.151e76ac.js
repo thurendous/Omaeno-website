@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[7608],{560:e=>{e.exports=JSON.parse('{"label":"ERC721","permalink":"/en/blog/tags/erc-721","allTagsPath":"/en/blog/tags","count":1}')}}]);
