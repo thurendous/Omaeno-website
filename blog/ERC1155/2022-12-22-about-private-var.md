@@ -164,7 +164,7 @@ pragma solidity ^0.8.0;
 import "https://github.com/AmazingAng/WTFSolidity/blob/main/34_ERC721/IERC165.sol";
 
 /**
- * @dev ERC1155接收合约，要接受ERC1155的安全转账，需要实现这个合约
+ * @dev ERC1155を受け取るためのコントラクト、ERC1155のtokenを受け取るにはこれを実装しないといけない
  */
 interface IERC1155Receiver is IERC165 {
     /**
@@ -240,8 +240,8 @@ import "https://github.com/AmazingAng/WTFSolidity/blob/main/34_ERC721/IERC165.so
  * 詳細はhttps://eips.ethereum.org/EIPS/eip-1155
  */
 contract ERC1155 is IERC165, IERC1155, IERC1155MetadataURI {
-    using Address for address; // 使用Address库，用isContract来判断地址是否为合约
-    using Strings for uint256; // 使用String库
+    using Address for address; // library Address
+    using Strings for uint256; // library Strings
     // Token名
     string public name;
     // Tokenシンボル
@@ -318,7 +318,7 @@ contract ERC1155 is IERC165, IERC1155, IERC1155MetadataURI {
      * 条件：
      * - to ゼロアドレスでないこと
      * - fromアドレスは十分なtoken数を持っており、callerは権限を持っていること
-     * -  to がスマートコントラクトの場合、IERC1155Receiver-onERC1155Receivedをサポートしていること
+     * - to がスマートコントラクトの場合、IERC1155Receiver-onERC1155Receivedをサポートしていること
      */
     function safeTransferFrom(
         address from,
@@ -600,7 +600,3 @@ constructor() ERC1155("BAYC1155", "BAYC1155"){
 **THE END**
 
 ![](yay-yas.gif)
-
-```
-
-```
