@@ -49,6 +49,15 @@ function HomepageHeader() {
                         Tool - Unit Converter
                     </Link>
                 </div>
+                <p className="hero__subtitle"></p>
+                <div className={styles.buttons}>
+                    <Link
+                        className="button button--warning button--lg"
+                        to="https://omaeno-new-year-card.vercel.app/"
+                    >
+                        新年のメッセージ＋スペシャル年賀状NFT
+                    </Link>
+                </div>
             </div>
         </header>
     )

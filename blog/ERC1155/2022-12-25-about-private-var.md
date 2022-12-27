@@ -1,6 +1,6 @@
 ---
 slug: what-is-ERC1155-with-code-explained
-title: ERC1155のコード解説
+title: ERC1155（コード解説）
 authors: [Thurendous, Polymetis]
 blogDescription: 'ERC721とはなんぞや'
 tags: [ERC1155, ERC721, NFT, solidity]
@@ -12,7 +12,7 @@ tags: [ERC1155, ERC721, NFT, solidity]
 
 -   ERC721 は一種の NFT に対応しているのに対し、ERC1155 は複数の NFT に対応しているイメージです。
 -   ERC1155 の ERC721 との違い
-    -   token id は種類を規定し、id ごとに amount という数量を定義したこと
+    -   token id は種類を規定し、id ごとに amount という数量を定義した
     -   バッチ処理を実装した
 -   今回は ERC1155 のコード解説をした
 
