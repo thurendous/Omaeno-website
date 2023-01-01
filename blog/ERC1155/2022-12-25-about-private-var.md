@@ -1,12 +1,12 @@
 ---
 slug: what-is-ERC1155-with-code-explained
-title: ERC1155（コード解説）
+title: ERC1155とはなんぞや（コード解説）
 authors: [Thurendous, Polymetis]
-blogDescription: 'ERC721とはなんぞや'
-tags: [ERC1155, ERC721, NFT, solidity]
+blogDescription: 'ERC1155とはなんぞや'
+tags: [ERC1155, ERC721, NFT, FT, solidity]
 ---
 
-![](whatiserc1155.gif)
+![BYAC](whatiserc1155.gif)
 
 # TL;DR
 
