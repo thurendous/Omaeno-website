@@ -4,10 +4,25 @@
         <title>Hello Web3 Blog</title>
         <link>https://omaeno.xyz/en/blog</link>
         <description>Hello Web3 Blog</description>
-        <lastBuildDate>Sun, 25 Dec 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[ゼロ知識証明を事例で理解する]]></title>
+            <link>https://omaeno.xyz/en/blog/Zero-knowledge-proofs-explained-by-examples</link>
+            <guid>Zero-knowledge-proofs-explained-by-examples</guid>
+            <pubDate>Sun, 08 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[ゼロ知識証明はシンプルに言うと人に秘密をバラすことなく、知っていることを証明できること。]]></description>
+            <content:encoded><![CDATA[<p>ゼロ知識証明はシンプルに言うと人に秘密をバラすことなく、知っていることを証明できること。</p><p>妙な言い方をしていて、自分もなかなかとっつきにくいことだと思いました。事例を通して理解すると、ピンとくることもあるのかもしれない。
+<img loading="lazy" src="/en/assets/images/urnotauthorizedtoknow-7d3794142305dd6a1cd82409a6edfaf9.png" width="623" height="435" class="img_ev3q"></p><p>ゼロ知識証明は非常に重要で、これを使うことで、プライバシーの妥協をすることなく、なにかをすることができる。</p><ul><li>ウェブサイトへログイン：パスワードを入力するかわりに、自分がそれを知っていることを証明すればよい</li><li>アイデンティティの認証：本名をバラすかわりに、プルーフを送るだけで済む</li><li>プライベートブロックチェーンのトランザクション：お金をパブリックなビットコインブロックチェーン上で送るよりも、プルーフで検証することで済む。例えば、Zcash はこの仕組である。</li></ul><h1>例１</h1><p>Alice and Bob は絵本にいる Waldo の場所を探すのに競っているとしよう。</p><p><img loading="lazy" src="/en/assets/images/findthisguy-4db4762abe33acf50b4586877152e5a5.png" width="636" height="198" class="img_ev3q"></p><p>Alice は Waldo の居場所は見つかったと言い張っている。
+Alice は実際の居場所をバラすことなく、伝えたくて色々考えた。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="proof1">Proof1<a class="hash-link" href="#proof1" title="Direct link to heading">​</a></h2><p>Alice は Waldo の破片をそのまま切り取って Bob に見せる。Bob は Alice の切り取った破片、あるいは切り取った後の絵本を参考に答えを探すことができる。</p><p><img loading="lazy" src="/en/assets/images/alicecutehon-22c855e3f1d53240552991cd822c19dc.png" width="647" height="216" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="proof2">Proof2<a class="hash-link" href="#proof2" title="Direct link to heading">​</a></h2><p>Alice は別の紙を絵本にかぶせて、Bob に Waldo だけ穴を開けてを見せるとしよう。この場合、Waldo が周りの正確な風景にいるかは不明で、Alice はその風景を正しく証明できれば証明できる。</p><p><img loading="lazy" src="/en/assets/images/alicecutimage-b7966fe4ec4ad8793a3efe601527bb19.png" width="554" height="190" class="img_ev3q"></p><h1>健全性、完全性、ゼロ知識の属性</h1><p>この二種類のソリューションはゼロ知識証明の３つの属性である健全性、完全性、ゼロ知識を満たしていると言えよう。</p><ol><li>健全性：証明できたら、本当になる。Alice がもし Waldo の居場所を探せなかったら、ランダムなピースになったに違いなく、すぐに見つかっていないとばれるだろう。</li><li>完全性：証明できた場合は必ずプルーフがある。Waldo を探せた場合、必ず Waldo を見せなければならない。</li><li>ゼロ知識：証明されたことが見せられていて、事実そのものは見せていない。唯一見せた事実は Waldo は見つかったよということだけで、どの場所にいるかとかの情報は開示していない。</li></ol><h1>例 2</h1><p>もう一つ例を見てみよう。Alice は色盲で、Bob はそうではない。でも Alice は Bob が自分は色盲でないことを信用できておらず、Bob に証明してほしいと思っている。</p><p>そこで暗号専門家の彼女はうまく考えて実験をしだした。</p><p>Alice は青いボールとレッドのボールを持っていて、体の後ろにもっていき、シャッフルしてから Bob に見せつつ、ボールが入っている手が変わったのかについて尋ねる。
+これを 20 回くらい繰り返すことで、もし Bob が全部正解していたら、たまたま Bob が色盲でありつつ、正解できた確率は 1/1048576 くらいで無視できるので、ほぼ信頼に値するだろうと Alice は考えた。</p><p><img loading="lazy" src="/en/assets/images/AliceBobHandColor-b2af0213b6103f67abe17ccc34733cf4.png" width="466" height="169" class="img_ev3q"></p><p><strong>THE END</strong></p><p><a href="https://medium.com/good-audience/understanding-zero-knowledge-proofs-through-simple-examples-df673f796d99" target="_blank" rel="noopener noreferrer">0xSage さんの記事</a>を参考に抜粋・翻訳したりしている。</p>]]></content:encoded>
+            <category>zero-knwoledge</category>
+            <category>proof</category>
+            <category>blockchain</category>
+            <category>examples</category>
+        </item>
         <item>
             <title><![CDATA[ERC1155とはなんぞや（コード解説）]]></title>
             <link>https://omaeno.xyz/en/blog/what-is-ERC1155-with-code-explained</link>
