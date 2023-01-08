@@ -120,7 +120,7 @@ interface IERC721 is IERC165 {
 -   `ownerOf`: tokenId のオーナーを返す
 -   `transferFrom`: 普通のトランスファ、引数は `from` は送り元で、`to` は送り先、`tokenId `も必要
 -   `safeTransferFrom`:安全なトランスファ、もし受ける側はコントラクトの場合、`ERC721Receiver`の実装が求められる。引数は送り元の`from`、送り先の`to`、`tokenId`
--   `approve`: 他のアドレスにあなたの NFT を使用する権利を渡す。権利を付与するアドレスは`approve`、そして`tokenId`
+-   `approve`: 他のアドレスにあなたの NFT を使用する権利を渡す。権利を付与するアドレスは`to`、そして`tokenId`も引数に
 -   `getApproved`: `tokenId`がどのアドレスに権限を付与したのか確認する
 -   `setApprovalFroAll`: 自分の持っているこのコントラクトのすべての NFT をとあるアドレスに対して全権移譲する
 -   `isApprovedForAll`: 全権移譲しているアドレスがあるか確認する
