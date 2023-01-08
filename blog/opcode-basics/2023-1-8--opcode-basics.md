@@ -3,7 +3,7 @@ slug: opcode-basics
 title: opcodeについて
 authors: [Thurendous, Polymetis]
 blogDescription: 'opcodeについて'
-tags: [opcode, blockchain, examples]
+tags: [opecode, Etheruem, blockchain, examples]
 ---
 
 ここでは、opcode（オペレーションコード）について語るには EVM についても語る必要がある。
