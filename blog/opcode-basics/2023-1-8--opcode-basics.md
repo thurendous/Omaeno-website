@@ -3,7 +3,7 @@ slug: opcode-basics
 title: opcodeについて
 authors: [Thurendous, Polymetis]
 blogDescription: 'opcodeについて'
-tags: [opecode, Etheruem, blockchain, examples]
+tags: [opcode, Etheruem, blockchain, examples]
 ---
 
 ここでは、opcode（オペレーションコード）について語るには EVM についても語る必要がある。
@@ -36,7 +36,7 @@ contract MyContract {
 
 ウォレットあるいはアドレスの前にある"0x"とは何を意味するのだろうか。"0x"からスタートするものはこれは EVM と会話をするには、EVM はどんなデータでも 16 進数のデータとして扱うのがデフォルトだからである。
 
-そして、opecode もある。
+opcode もある。
 
 ```
 PUSH1 0x60 PUSH1 0x40 MSTORE PUSH1 0x18 PUSH1 0x0 SSTORE CALLVALUE ISZERO PUSH1 0x13 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST JUMPDEST PUSH1 0x36 DUP1 PUSH1 0x21 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x60 PUSH1 0x40 MSTORE JUMPDEST PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 SLT 0xc9 0xbd STOP ISZERO 0x2f LOG1 0xc4 DUP1 0xf6 DUP3 PUSH32
@@ -96,7 +96,7 @@ MSTORE は２つの入力が求められ、output なし。なので、上記の
 EVM において、3 種類のデータ保存領域がある。
 
 -   今紹介したスタックにある場所
--   RAM のメモリー領域で、MSTORE の opecode のところ
+-   RAM のメモリー領域で、MSTORE の opcode のところ
 -   SSTORE の永久保存領域（とてもガス代がかかる）
 
 そして、Assembly Language を使って、スマートコントラクトをかける。これによって opcode を使うことができる。結構難しいけど、有用なときもある。solidity のみではできないようなこともできてしまう。
