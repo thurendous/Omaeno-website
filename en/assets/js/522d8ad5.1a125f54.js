@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[8],{8632:e=>{e.exports=JSON.parse('{"label":"opecode","permalink":"/en/blog/tags/opecode","allTagsPath":"/en/blog/tags","count":1}')}}]);
