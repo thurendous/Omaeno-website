@@ -1,6 +1,6 @@
 ---
 slug: checks-effects-interactions
-title: CEIとは : Checks Effects Interactions
+title: 'CEIとは : Checks Effects Interactions'
 authors: [Thurendous, Polymetis]
 blogDescription: 'checks-effects-interactions'
 tags: [checks-effects-interactions, Etheruem, blockchain, hack]
