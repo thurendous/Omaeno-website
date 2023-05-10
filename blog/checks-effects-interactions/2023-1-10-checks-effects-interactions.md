@@ -1,6 +1,6 @@
 ---
 slug: checks-effects-interactions
-title: Checks Effects Interactions
+title: CEIとは : Checks Effects Interactions
 authors: [Thurendous, Polymetis]
 blogDescription: 'checks-effects-interactions'
 tags: [checks-effects-interactions, Etheruem, blockchain, hack]
@@ -10,7 +10,7 @@ EVM のインタラクションについては、外部のコントラクトを�
 
 ![](printmoney.gif)
 
-solidity の世界では、re-entrancy の攻撃というのがある。
+EVM(Ethereum Virtual Machine) の世界では、Re-entrancy の攻撃というのがある。
 
 まさにこの攻撃手法が取られることがある。
 
@@ -23,7 +23,7 @@ solidity の世界では、re-entrancy の攻撃というのがある。
 このような状況において、Checks-Effects-Interactions を適用してください。
 
 -   外部のコントラクトを呼び出すのは避けられない
--   re-entrancy 攻撃を避けたい
+-   Re-entrancy 攻撃を避けたい
 
 ## 実装
 
@@ -39,9 +39,9 @@ solidity の世界では、re-entrancy の攻撃というのがある。
 
 最後に外部のコントラクトとのインタラクションをすべき。内部の状態が完全に更新された後に、初めて外部のコントラクトを呼び出す。
 
-この順番さえ守れば、re-entrancy 攻撃は最初の関門をくぐりぬけれなくなります。
+この順番さえ守れば、Re-entrancy 攻撃は最初の関門をくぐりぬけれなくなります。
 
-もし、最後に状態の変更をするとなると、状態変更される前に何回も同じ関数の部分が呼び出されてしまい、re-entrancy 攻撃の罠にハマってしまう。
+もし、最後に状態の変更をするとなると、状態変更される前に何回も同じ関数の部分が呼び出されてしまい、Re-entrancy 攻撃の罠にハマってしまう。
 
 ## 実例
 
@@ -80,7 +80,7 @@ contract reentrancyVictim{
 
 となっており、effect と interaction の順番が逆。
 
-その結果、re-entrancy 攻撃が可能となる。
+その結果、Re-entrancy 攻撃が可能となる。
 
 具体的なスキームはこんなかんじ：
 

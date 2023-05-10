@@ -6,11 +6,9 @@ blogDescription: 'EVM ディープダイブ - super coder への道 🥷 💻Par
 tags: [EVM, opcode, Etheruem, blockchain, examples]
 ---
 
-## EVM ディープダイブ - super coder への道 🥷 💻Part 1
+First Principle という言葉を耳にされたことはないだろうか。それは奥深く物事の基礎を理解した上で、よりよい発想を生まれることという概念だ。
 
-First Principle という言葉を耳にされたことはないだろうか。それは奥深く物事の基礎を理解した上で、よりよい発想を生まれることをいっている概念だ。
-
-スマートコントラクトの世界では、EVM とその周りにあるアルゴリズム、データ構造に関しては、まさにこの First Principle である。Solidity あるいはスマートコントラクトはこの基礎の上に作る構造物なのだ。EVM のことを理解せずにはグレートな solidity dev と称するにはまだ早いと言ってよいだろう。
+スマートコントラクトの世界では、EVM とその周りにあるアルゴリズム、データ構造に関しては、まさにこの First Principle である。Solidity あるいはスマートコントラクトはこの基礎の上に作る構造物なので、EVM のことを理解せずにはよい solidity dev と称するにはまだ早いと言ってよいだろう。
 
 ## 基礎：Solidity → Bytecode → Opcode
 
@@ -265,6 +263,8 @@ JUMPI    | 0x6057361d |
 今回は二個の関数しかないものの、たとえ 20 個の関数があったとしても、プロセスは一緒。
 
 この[リンク](https://www.evm.codes/playground?unit=Wei&callData=0x6057361d000000000000000000000000000000000000000000000000000000000000000a&codeType=Mnemonic&code=%27%210%7E0KCALLDATALOAD%7E2z2qw%21E0%7E3KSHR%7E5z2qwDUP1%7E6%28X4_2E64CEC1%7E7KEQ%7E12z5qwX2_3B%7E13%28*I%7E16z3qwDUP1%7E17KX4_6057361D%7E18KEQ%7E23z5qwX2_59%7E24K*I%7E27z3qwkY+wX30_0%7E28KwZGV59z31q%211%7E60+%7BG%7DW%7DKwkYwX26_0%7E62z2qKZstore%7Buint256V89z27q%210+ZContinueW.KK%27%7E+ZOffset+z+%7Bprevious+instruFoccupies+w%5Cnq%29s%7DwkZThes-ar-just+paddingNenabl-usNgetN_+0xZ%2F%2F+Yprogram+counter+59+%26+89XPUSHW+funFexecution...V%7D%29codew*DEST%7EN+to%28wwGretrieve%7BFction+-e+*JUMP%29+byte%28+K%21X1_%01%21%28%29*-FGKNVWXYZ_kqwz%7E_&fork=merge)は非常におすすめ。触ってみると吉。
+
+EVM のスタック・メモリ・ストレージをシミュレートしてくれる。
 
 ## Reference
 
