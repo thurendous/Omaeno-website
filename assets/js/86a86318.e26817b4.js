@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[9351],{274:s=>{s.exports=JSON.parse('{"label":"opcode","permalink":"/blog/tags/opcode","allTagsPath":"/blog/tags","count":2}')}}]);
