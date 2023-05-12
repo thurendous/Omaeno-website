@@ -6,6 +6,8 @@ blogDescription: 'opcodeについて'
 tags: [opcode, Etheruem, blockchain, examples]
 ---
 
+Hi Hi, nerver give up!
+
 ここでは、opcode（オペレーションコード）について語るには EVM についても語る必要がある。
 
 他のプログラミング言語と同じように、solidity はハイレベルなプログラミング言語であり、人間が読みやすい一方で、コンピューターは理解できない。私達が geth をインストールすると、それに加えて Ethereum Virtual Machine がつきものとしてついてくる。EVM とは軽量級の OS みたいなもので、スマートコントラクトをランする環境として用意されている。

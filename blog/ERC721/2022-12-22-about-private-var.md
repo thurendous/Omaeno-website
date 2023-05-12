@@ -6,6 +6,8 @@ blogDescription: 'ERC721とはなんぞや'
 tags: [ERC721, NFT, solidity]
 ---
 
+Hi Hi, nerver give up!
+
 # TL;DR
 
 -   NFT は非代替性トークンのこと
