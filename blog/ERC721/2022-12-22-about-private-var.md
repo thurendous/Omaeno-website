@@ -6,7 +6,7 @@ blogDescription: 'ERC721とはなんぞや'
 tags: [ERC721, NFT, solidity]
 ---
 
-Hi Hi, nerver give up!
+Hello, everybody!
 
 # TL;DR
 

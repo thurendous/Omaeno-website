@@ -8,6 +8,8 @@ tags: [private, variable, solidity, 変数]
 
 ![](hffgf.gif)
 
+Hello, everybody!
+
 # TL;DR：
 
 結論を言っておきますと、秘密をオンチェーンに乗せるな。private という修飾子も秘密を保持するのに、意味をなさない。

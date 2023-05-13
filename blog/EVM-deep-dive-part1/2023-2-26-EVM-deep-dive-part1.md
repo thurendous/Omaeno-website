@@ -6,7 +6,7 @@ blogDescription: 'EVM ディープダイブ - super coder への道 🥷 💻Par
 tags: [EVM, opcode, Etheruem, blockchain, examples]
 ---
 
-Hi Hi, nerver give up!
+Hello, everybody!
 
 First Principle という言葉を耳にされたことはないだろうか。それは奥深く物事の基礎を理解した上で、よりよい発想を生まれることという概念だ。
 

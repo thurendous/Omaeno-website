@@ -6,7 +6,7 @@ blogDescription: 'ゼロ知識証明を事例で理解する'
 tags: [zero-knwoledge, proof, blockchain, examples]
 ---
 
-Hi Hi, nerver give up!
+Hello, everybody!
 
 ゼロ知識証明はシンプルに言うと人に秘密をバラすことなく、知っていることを証明できること。
 

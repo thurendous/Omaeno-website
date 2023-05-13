@@ -6,7 +6,7 @@ blogDescription: 'checks-effects-interactions'
 tags: [checks-effects-interactions, Etheruem, blockchain, hack]
 ---
 
-Hi Hi, nerver give up!
+Hello, everybody!
 
 EVM のインタラクションについては、外部のコントラクトを呼び出すときに、主導権は全部外部のコントラクトが握ることとなり、危険がケースがある。もしその外部のコントラクトは悪意のあるコントラクトの場合、悪用されるリスクにさらされる。
 
