@@ -1,5 +1,5 @@
 ---
-slug: What is SafeERC20
+slug: What-is-SafeERC20
 title: SafeERC20とは
 authors: [Thurendous]
 blogDescription: 'Foundryの使い方入門'
