@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website_with_docusaurus=self.webpackChunkmy_website_with_docusaurus||[]).push([[1275],{5353:s=>{s.exports=JSON.parse('{"label":"Foundry","permalink":"/blog/tags/foundry","allTagsPath":"/blog/tags","count":1}')}}]);
