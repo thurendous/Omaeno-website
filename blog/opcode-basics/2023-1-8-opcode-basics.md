@@ -6,7 +6,7 @@ blogDescription: 'opcodeについて'
 tags: [opcode, Etheruem, blockchain, examples]
 ---
 
-Hi Hi, nerver give up!
+Hi Hi, never give up!
 
 ここでは、opcode（オペレーションコード）について語るには EVM についても語る必要がある。
 
