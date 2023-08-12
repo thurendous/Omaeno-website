@@ -51,5 +51,5 @@ contract FixedPriceMarket {
 
 ## Reference
 
-[OpenZeppelin Forum](https://forum.openzeppelin.com/t/safeerc20-tokentimelock-wrappers/396)
+[OpenZeppelin Forum](https://forum.openzeppelin.com/t/safeerc20-tokentimelock-wrappers/396)  
 [SafeERC20 について](https://zenn.dev/retocrooman/articles/20768619a313ae)
