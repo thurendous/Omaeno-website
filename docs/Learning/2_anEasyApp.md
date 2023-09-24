@@ -6,11 +6,16 @@ keywords: [solidity, app]
 description: an easy app
 # slug: /an-easy-app
 tags:
-    - basic
-    - first-step
+  - basic
+  - first-step
 ---
 
 # An Easy App
+
+簡単なアプリケーションを作ってみよう。
+`unit`は正整数のみを扱うことができる。
+
+`function`は関数を作成するときの宣言方法。
 
 ```solidity
 // SPDX-License-Identifier: MIT

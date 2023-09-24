@@ -6,18 +6,18 @@ keywords: [solidity, data, type]
 description: data type of solidity
 # slug: /data-type
 tags:
-    - basic
-    - datatype
+  - basic
+  - datatype
 ---
 
 # 基本的な変数の型
 
 Solidiy にある基本的な変数の型について紹介
 
--   bool
--   uint
--   int
--   address
+- bool: true or false
+- uint: 0 ~ 2 ^ 256 - 1
+- int: -2 ^ 255 ~ 2 ^ 255 - 1
+- address: Ethereum のアドレス
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -25,6 +25,7 @@ pragma solidity ^0.8.13;
 
 contract Primitives {
     // bool値を宣言し、初期値trueを付与
+    // 初期値を付与しない場合、falseになる
     bool public boo = true;
 
     /*
@@ -38,7 +39,7 @@ contract Primitives {
     */
 
     uint8 public u8 = 12;
-    uint public u = 1234; // uintの後ろに何も書かないのはuint256と同じ
+    uint public u = 1234; // uintの後ろに何も数字を書かない場合、uint256と同義
     uint public u256 = 156;
 
     /*
@@ -51,11 +52,14 @@ contract Primitives {
     */
     int8 public i8 = -1;
     int public i256 = 456;
-    int public i = -123; // intの後ろに何も書かないのはint256と同じ
+    int public i = -123; // intの後ろに何も書かない場合、int256と同じ
 
     // 最大値、最小値の書き方
     int public minInt = type(int).min; // -2 ^ 255
     int public maxInt = type(int).max; // 2 ^ 255 - 1
+    // uintも同じ
+    uint256 public maxUint = type(uint256).max; // 2 ^ 256 - 1
+    uint256 public minUint = type(uint256).min; // 0
 
     address public addr = 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c;
 
