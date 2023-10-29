@@ -28,3 +28,34 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* this is for customization of feelback in file: `src/theme/BlogPostItem/Header/Info/index.js` */
+@import '@feelback/react/styles/feelback.css';
+.feelback-icon svg {
+  width: 16px;
+  height: 16px;
+  color: red;
+  background-color: none;
+}
+.feelback-btn.active {
+  background-color: transparent; /* 例如，将背景颜色设置为透明 */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(1.2);
+  }
+  66% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.feelback-icon svg:hover {
+  animation: pulse 1.5s infinite; /* 0.5s 是动画的持续时间，infinite 表示动画将无限次重复 */
+}
